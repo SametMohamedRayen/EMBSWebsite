@@ -38,14 +38,14 @@ a {
 }
 
 @keyframes move {
-    from {
-        transform : rotateX(0deg);
+    0% {
+        transform : scale(1);
     }
-    to {
-        transform : rotateX(60deg);
+    100% {
+        transform : scale(2);
     }
 }
 
-#fbMol:hover ~ #hi {
+#fbMol:hover ~ #_1stLine {
     background: aquamarine;
 }
