@@ -2,7 +2,6 @@
 
 body {
     margin: 0;
-    overflow-x: hidden;
 }
 
 a {
@@ -221,4 +220,38 @@ a {
     }
 }
 
+.navLinkItem:hover + .loadHex {
+    visibility: visible;
+    height: 1vw;
+    margin: auto;
+    padding: 0;
+    max-width: 1vw;
+    display: block;
+    transition-duration: 1s;
+}
+
+
+.navLinkItem:not(:hover) + .loadHex {
+    visibility: hidden;
+    height: 1vw;
+    margin: auto;
+    padding: 0;
+    max-width: 1vw;
+    display: block;
+}
+
+#HoverButtonHexagon {
+    animation: rotate 1s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotate {
+    from {
+        transform:rotateZ(0);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
 

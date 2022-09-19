@@ -37,16 +37,532 @@ const Navbar = () => {
           />
           <ul>
             <li>
-              <a href="">Home</a>
+              <div className="navLink">
+                <a href="" className="navLinkItem">
+                  Home
+                </a>
+                <svg
+                  className="loadHex"
+                  width="141"
+                  height="167"
+                  viewBox="0 0 141 167"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="HoverButtonHexagon">
+                    <line
+                      id="Line 32"
+                      x1="7.43861"
+                      y1="47.7059"
+                      x2="64.4386"
+                      y2="13.7059"
+                      stroke="url(#paint0_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <line
+                      id="Line 33"
+                      x1="10"
+                      y1="43"
+                      x2="10"
+                      y2="108"
+                      stroke="url(#paint1_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <circle
+                      id="Ellipse 19"
+                      cx="71.5"
+                      cy="10.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 22"
+                      cx="10.5"
+                      cy="115.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 23"
+                      cx="68.5"
+                      cy="156.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 24"
+                      cx="130.5"
+                      cy="51.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <line
+                      id="Line 34"
+                      x1="133.561"
+                      y1="118.294"
+                      x2="76.5614"
+                      y2="152.294"
+                      stroke="url(#paint2_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <line
+                      id="Line 35"
+                      x1="131"
+                      y1="123"
+                      x2="131"
+                      y2="58"
+                      stroke="url(#paint3_linear_171_98)"
+                      stroke-width="10"
+                    />
+                  </g>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_171_98"
+                      x1="22"
+                      y1="48"
+                      x2="55.5"
+                      y2="30"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear_171_98"
+                      x1="5"
+                      y1="61.5"
+                      x2="5"
+                      y2="88.5"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint2_linear_171_98"
+                      x1="116"
+                      y1="123"
+                      x2="91"
+                      y2="139"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint3_linear_171_98"
+                      x1="136"
+                      y1="102.5"
+                      x2="136"
+                      y2="77.5"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
             </li>
             <li>
-              <a href="">About</a>
+              <div className="navLink">
+                <a href="" className="navLinkItem">
+                  About
+                </a>
+                <svg
+                  className="loadHex"
+                  width="141"
+                  height="167"
+                  viewBox="0 0 141 167"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="HoverButtonHexagon">
+                    <line
+                      id="Line 32"
+                      x1="7.43861"
+                      y1="47.7059"
+                      x2="64.4386"
+                      y2="13.7059"
+                      stroke="url(#paint0_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <line
+                      id="Line 33"
+                      x1="10"
+                      y1="43"
+                      x2="10"
+                      y2="108"
+                      stroke="url(#paint1_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <circle
+                      id="Ellipse 19"
+                      cx="71.5"
+                      cy="10.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 22"
+                      cx="10.5"
+                      cy="115.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 23"
+                      cx="68.5"
+                      cy="156.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 24"
+                      cx="130.5"
+                      cy="51.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <line
+                      id="Line 34"
+                      x1="133.561"
+                      y1="118.294"
+                      x2="76.5614"
+                      y2="152.294"
+                      stroke="url(#paint2_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <line
+                      id="Line 35"
+                      x1="131"
+                      y1="123"
+                      x2="131"
+                      y2="58"
+                      stroke="url(#paint3_linear_171_98)"
+                      stroke-width="10"
+                    />
+                  </g>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_171_98"
+                      x1="22"
+                      y1="48"
+                      x2="55.5"
+                      y2="30"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear_171_98"
+                      x1="5"
+                      y1="61.5"
+                      x2="5"
+                      y2="88.5"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint2_linear_171_98"
+                      x1="116"
+                      y1="123"
+                      x2="91"
+                      y2="139"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint3_linear_171_98"
+                      x1="136"
+                      y1="102.5"
+                      x2="136"
+                      y2="77.5"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
             </li>
             <li>
-              <a href="">Activities</a>
+              <div className="navLink">
+                <a href="" className="navLinkItem">
+                  Activities
+                </a>
+                <svg
+                  className="loadHex"
+                  width="141"
+                  height="167"
+                  viewBox="0 0 141 167"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="HoverButtonHexagon">
+                    <line
+                      id="Line 32"
+                      x1="7.43861"
+                      y1="47.7059"
+                      x2="64.4386"
+                      y2="13.7059"
+                      stroke="url(#paint0_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <line
+                      id="Line 33"
+                      x1="10"
+                      y1="43"
+                      x2="10"
+                      y2="108"
+                      stroke="url(#paint1_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <circle
+                      id="Ellipse 19"
+                      cx="71.5"
+                      cy="10.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 22"
+                      cx="10.5"
+                      cy="115.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 23"
+                      cx="68.5"
+                      cy="156.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 24"
+                      cx="130.5"
+                      cy="51.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <line
+                      id="Line 34"
+                      x1="133.561"
+                      y1="118.294"
+                      x2="76.5614"
+                      y2="152.294"
+                      stroke="url(#paint2_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <line
+                      id="Line 35"
+                      x1="131"
+                      y1="123"
+                      x2="131"
+                      y2="58"
+                      stroke="url(#paint3_linear_171_98)"
+                      stroke-width="10"
+                    />
+                  </g>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_171_98"
+                      x1="22"
+                      y1="48"
+                      x2="55.5"
+                      y2="30"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear_171_98"
+                      x1="5"
+                      y1="61.5"
+                      x2="5"
+                      y2="88.5"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint2_linear_171_98"
+                      x1="116"
+                      y1="123"
+                      x2="91"
+                      y2="139"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint3_linear_171_98"
+                      x1="136"
+                      y1="102.5"
+                      x2="136"
+                      y2="77.5"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
             </li>
             <li>
-              <a href="">Get in Touch</a>
+              <div className="navLink">
+                <a href="" className="navLinkItem">
+                  Get in Touch
+                </a>
+                <svg
+                  className="loadHex"
+                  width="141"
+                  height="167"
+                  viewBox="0 0 141 167"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="HoverButtonHexagon">
+                    <line
+                      id="Line 32"
+                      x1="7.43861"
+                      y1="47.7059"
+                      x2="64.4386"
+                      y2="13.7059"
+                      stroke="url(#paint0_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <line
+                      id="Line 33"
+                      x1="10"
+                      y1="43"
+                      x2="10"
+                      y2="108"
+                      stroke="url(#paint1_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <circle
+                      id="Ellipse 19"
+                      cx="71.5"
+                      cy="10.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 22"
+                      cx="10.5"
+                      cy="115.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 23"
+                      cx="68.5"
+                      cy="156.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <circle
+                      id="Ellipse 24"
+                      cx="130.5"
+                      cy="51.5"
+                      r="8"
+                      stroke="#24549B"
+                      stroke-width="5"
+                    />
+                    <line
+                      id="Line 34"
+                      x1="133.561"
+                      y1="118.294"
+                      x2="76.5614"
+                      y2="152.294"
+                      stroke="url(#paint2_linear_171_98)"
+                      stroke-width="10"
+                    />
+                    <line
+                      id="Line 35"
+                      x1="131"
+                      y1="123"
+                      x2="131"
+                      y2="58"
+                      stroke="url(#paint3_linear_171_98)"
+                      stroke-width="10"
+                    />
+                  </g>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_171_98"
+                      x1="22"
+                      y1="48"
+                      x2="55.5"
+                      y2="30"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear_171_98"
+                      x1="5"
+                      y1="61.5"
+                      x2="5"
+                      y2="88.5"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint2_linear_171_98"
+                      x1="116"
+                      y1="123"
+                      x2="91"
+                      y2="139"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint3_linear_171_98"
+                      x1="136"
+                      y1="102.5"
+                      x2="136"
+                      y2="77.5"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#0CC5CB" />
+                      <stop offset="1" stop-color="#24549B" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
             </li>
           </ul>
           <div className="socials">
