@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 a {
@@ -10,10 +11,19 @@ a {
 
 .navbarShape {
     z-index: -999;
+    opacity: 0;
+    transition-duration: 1s;
 }
 
 .navbar {
-    position: relative;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.navbarScrolled {
+    opacity : 100%;
+    transition-duration: 1s;
 }
 
 .nav {
@@ -21,32 +31,58 @@ a {
     top: 0;
     left: 0;
     width: 100%;
+    transition-duration: 1s;
+}
+
+.navScrolled {
+    position: absolute;
+    top: -1.5vw;
+    left: 0;
+    width: 100%;
+    transition-duration: 1s;
 }
 
 .navElements {
     display: flex;
-    gap: 7rem;
+    gap: 14.5vw;
+ /*   justify-content: space-between;*/
 }
 
 .navElements ul {
     list-style: none;
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
-    gap: 3rem;
-    font-size: x-large;
-    padding-top: 0.4rem;
-    color: darkslategray;
+    gap: 3vw;
+    font-size: 1.85vw;
+    padding-top: 1.9vw;
+}
+
+.navElements ul a {
+    color: #24549B;
+}
+
+.navElements ul a:hover {
+    color: #0CC5CB;
 }
 
 .logo {
-    padding: 1.5rem 3rem;
-    height: 7rem;
+    padding: 3vw 0 0 5vw;
+    height: 4.5vw;
     width: auto;
+    transition-duration: 1s;
+}
+
+.logoScrolled {
+    margin-right: -4vw;
+    padding: 3.75vw 0 0 4vw;
+    height: 8vw;
+    width: auto;
+    transition-duration: 1s;
 }
 
 .hexagons {
-    padding: 2rem 2rem;
-    height: 10rem;
+    padding: 3vw 5vw 0 0;
+    height: 12.05vw;
     width: auto;
 }
 
@@ -64,23 +100,29 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 3.6vw;
+    margin-top: 4.175vw;
 }
 
 #fb {
-    margin-left: 5vw;
+    margin-left: 2.625vw;
 }
 
 #ig {
-    margin-left: 8.45vw;
+    margin-left: 6.075vw;
 }
 
 #li {
-    margin-left: 11.7vw;
+    margin-left: 9.3vw;
 }
 
 .socialIcon {
     font-size: 1.75vw;
+    color: #24549B;
+}
+
+.socialIcon:hover {
+    color: #0CC5CB;
+    transition-duration: 500ms;
 }
 
 .Line1Anim {

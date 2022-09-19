@@ -1,0 +1,30 @@
+<svg width="138" height="160" viewBox="0 0 138 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="HoverButtonHexagon">
+<line id="Line 32" x1="5.97544" y1="44.2824" x2="62.9754" y2="10.2824" stroke="url(#paint0_linear_171_98)" stroke-width="4"/>
+<line id="Line 33" x1="7" y1="43" x2="7" y2="108" stroke="url(#paint1_linear_171_98)" stroke-width="4"/>
+<circle id="Ellipse 18" cx="7.5" cy="113.5" r="6" stroke="#24549B" stroke-width="3"/>
+<circle id="Ellipse 19" cx="69.5" cy="7.5" r="6" stroke="#24549B" stroke-width="3"/>
+<line id="Line 34" x1="132.025" y1="115.718" x2="75.0246" y2="149.718" stroke="url(#paint2_linear_171_98)" stroke-width="4"/>
+<line id="Line 35" x1="131" y1="117" x2="131" y2="52" stroke="url(#paint3_linear_171_98)" stroke-width="4"/>
+<circle id="Ellipse 20" cx="130.5" cy="46.5" r="6" transform="rotate(-180 130.5 46.5)" stroke="#24549B" stroke-width="3"/>
+<circle id="Ellipse 21" cx="68.5" cy="152.5" r="6" transform="rotate(-180 68.5 152.5)" stroke="#24549B" stroke-width="3"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_171_98" x1="19" y1="42" x2="52.5" y2="24" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0CC5CB"/>
+<stop offset="1" stop-color="#24549B"/>
+</linearGradient>
+<linearGradient id="paint1_linear_171_98" x1="5" y1="61.5" x2="5" y2="88.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0CC5CB"/>
+<stop offset="1" stop-color="#24549B"/>
+</linearGradient>
+<linearGradient id="paint2_linear_171_98" x1="116" y1="123" x2="91" y2="139" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0CC5CB"/>
+<stop offset="1" stop-color="#24549B"/>
+</linearGradient>
+<linearGradient id="paint3_linear_171_98" x1="133" y1="96.5" x2="133" y2="71.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0CC5CB"/>
+<stop offset="1" stop-color="#24549B"/>
+</linearGradient>
+</defs>
+</svg>
