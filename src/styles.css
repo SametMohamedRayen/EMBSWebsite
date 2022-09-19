@@ -8,44 +8,175 @@ a {
     text-decoration: none;
 }
 
-.nav {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: x-large;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1rem;
-    gap: 2rem;
+.navbarShape {
+    z-index: -999;
+}
+
+.navbar {
     position: relative;
 }
 
-.nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 3rem;
-}
-
-.logo {
-    height: 5rem;
-    width: auto;
-}
-
-.shape {
+.nav {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 
-@keyframes move {
-    0% {
-        transform : scale(1);
+.navElements {
+    display: flex;
+    gap: 7rem;
+}
+
+.navElements ul {
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    gap: 3rem;
+    font-size: x-large;
+    padding-top: 0.4rem;
+    color: darkslategray;
+}
+
+.logo {
+    padding: 1.5rem 3rem;
+    height: 7rem;
+    width: auto;
+}
+
+.hexagons {
+    padding: 2rem 2rem;
+    height: 10rem;
+    width: auto;
+}
+
+.socials {
+    position: relative;
+}
+
+.socialsShape {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.social {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 3.6vw;
+}
+
+#fb {
+    margin-left: 5vw;
+}
+
+#ig {
+    margin-left: 8.45vw;
+}
+
+#li {
+    margin-left: 11.7vw;
+}
+
+.socialIcon {
+    font-size: 1.75vw;
+}
+
+.Line1Anim {
+    animation: move1 1s 1;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-fill-mode: forwards;
+}
+
+.Line2Anim {
+    animation: move2 1s 1;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-fill-mode: forwards;
+}
+
+.Line3Anim {
+    animation: move3 1s 1;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-fill-mode: forwards;
+}
+
+.Line4Anim {
+    animation: move4 1s 1;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-fill-mode: forwards;
+}
+
+.Line5Anim {
+    animation: move5 1s 1;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-fill-mode: forwards;
+}
+
+.Line6Anim {
+    animation: move6 1s 1;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move1 {
+    from {
+        transform : rotateZ(0deg) translateY(0) translateX(0);
     }
-    100% {
-        transform : scale(2);
+    to {
+        transform : rotateZ(60deg) translateY(-2.5rem) translateX(1.5rem);
     }
 }
 
-#fbMol:hover ~ #_1stLine {
-    background: aquamarine;
+@keyframes move2 {
+    from {
+        transform : rotateZ(0deg) translateY(0) translateX(0);
+    }
+    to {
+        transform : rotateZ(60deg) translateY(2.5rem) translateX(1.5rem);
+    }
 }
+
+@keyframes move3 {
+    from {
+        transform : rotateZ(0deg) translateY(0) translateX(0);
+    }
+    to {
+        transform : rotateZ(60deg) translateY(-0.1rem) translateX(-2.75rem);
+    }
+}
+
+@keyframes move4 {
+    from {
+        transform : rotateZ(0deg) translateX(0);
+    }
+    to {
+        transform : rotateZ(180deg) translateX(-6rem);
+    }
+}
+
+@keyframes move5 {
+    from {
+        transform : rotateZ(0deg) translateX(0);
+    }
+    to {
+        transform : rotateZ(180deg) translateX(6rem);
+    }
+}
+
+@keyframes move6 {
+    from {
+        transform : rotateZ(0deg) translateX(0) translateY(0);
+    }
+    to {
+        transform : rotateZ(-60deg) translateX(-3rem) translateY(0.1rem);
+    }
+}
+
+
