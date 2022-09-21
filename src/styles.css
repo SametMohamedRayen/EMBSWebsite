@@ -1,3 +1,5 @@
+/*NAVBAR*/
+
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&family=Josefin+Sans:wght@300;400;500&display=swap');
 
 body {
@@ -18,6 +20,7 @@ a {
     position: fixed;
     width: 100%;
     height: auto;
+    z-index: 1;
 }
 
 .navbarScrolled {
@@ -73,8 +76,8 @@ a {
 
 .logoScrolled {
     margin-right: -4vw;
-    padding: 3.75vw 0 0 4vw;
-    height: 8vw;
+    padding: 3.75vw 0 0 2.75vw;
+    height: 8.5vw;
     width: auto;
     transition-duration: 1s;
 }
@@ -255,3 +258,35 @@ a {
     }
 }
 
+/*////////////////////////////////////////////////////////////////////*/
+
+/*HOME*/
+
+.topSection {
+    z-index: 0;
+    position: relative;
+}
+
+.section1 {
+    width:100%;
+    height: auto;
+    padding: 0;
+    opacity: 25%;
+    position: absolute;
+}
+
+.infoBar {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    margin-left: 16%;
+}
+
+.intro h1{
+    margin: 0;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 15vw;
+}
