@@ -11,7 +11,7 @@ a {
 }
 
 .navbarShape {
-    z-index: -999;
+    z-index: -1;
     opacity: 0;
     transition-duration: 1s;
 }
@@ -24,7 +24,7 @@ a {
 }
 
 .navbarScrolled {
-    opacity : 100%;
+    opacity : 60%;
     transition-duration: 1s;
 }
 
@@ -262,8 +262,21 @@ a {
 
 /*HOME*/
 
+@font-face {
+    font-family: "IndigoRegular";
+    src: local("IndigoRegular"),
+    url("./fonts/Indigo/Indigo Regular.otf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "AlboriRegular";
+    src: local("AlboriRegular"),
+    url("./fonts/Albori/Albori-Regular.otf") format("truetype");
+    font-weight: bold;
+}
+
 .topSection {
-    z-index: 0;
     position: relative;
 }
 
@@ -275,18 +288,45 @@ a {
     position: absolute;
 }
 
-.infoBar {
-    position: absolute;
-    width: 70%;
-    height: auto;
-    margin-left: 16%;
-}
-
 .intro h1{
     margin: 0;
+    font-family: 'IndigoRegular',sans-serif;
+    font-size: 3vw;
+    padding-bottom: 3vw;
+    color: #112849;
+}
+.intro p {
+    font-family: 'AlboriRegular',sans-serif;
+    font-size: 1.75vw;
 }
 
 .intro {
     text-align: center;
     padding-top: 15vw;
+    position: absolute;
+    width: 100%;
+}
+
+#GIFClippingPath {
+    width: 100%;
+    height: auto;
+}
+
+.section1gif {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    clip-path: url(#GIFClippingPath);
+}
+
+.clippingPathSvg {
+    height: 0;
+    width: 0;
+}
+
+.GIFClippingPathShape {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 100%;
 }
