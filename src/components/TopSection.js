@@ -1,8 +1,54 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ReactComponent as Section1 } from "../SVG/Section1.svg";
 import { ReactComponent as GIFClippingPathShape } from "../SVG/GIFClippingPathShape.svg";
 
 const TopSection = () => {
+  const text1 =
+    "We are the bad bitches that turn viruses into potions that heal or\n" +
+    "corrupt depending on the sitch.\n" +
+    "If you want to learn some of this witchraft join us on this land we\n" +
+    "call the witch's swamp.";
+  const text2 =
+    "Lorem ipsum ihzgrjljk fgzrzjgrjgrklz lzegvrsgvggnlz fezolefe\nefzjjfeflelknfeefkefknfkelnfeklneflnlefqjflejqefllfnelfeflefelafeljaaafljfelj\nduiahgduzaphdazhda";
+
+  const [dynamic_text1, setDynamicText1] = useState("");
+  const textState = ["istyping1", "istyping2", "isdeleting1", "isdeleting2"];
+  const [typing, setTyping] = useState(textState[0]);
+
+  function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      console.log(typing);
+      if (typing === "istyping1" && dynamic_text1 !== text1) {
+        setDynamicText1(text1.slice(0, dynamic_text1.length + 1));
+      } else if (typing === "istyping2" && dynamic_text1 !== text2) {
+        setDynamicText1(text2.slice(0, dynamic_text1.length + 1));
+      } else if (dynamic_text1 === text1 && typing === "istyping1") {
+        sleep(2000).then(() => {
+          setTyping(textState[2]);
+        });
+      } else if (dynamic_text1 === text2 && typing === "istyping2") {
+        sleep(2000).then(() => {
+          setTyping(textState[3]);
+        });
+      } else if (typing === "isdeleting1") {
+        setDynamicText1(text1.slice(0, dynamic_text1.length - 1));
+        if (dynamic_text1.length <= 1) {
+          setTyping(textState[1]);
+        }
+      } else if (typing === "isdeleting2") {
+        setDynamicText1(text2.slice(0, dynamic_text1.length - 1));
+        if (dynamic_text1.length <= 1) {
+          setTyping(textState[0]);
+        }
+      }
+    }, 100);
+    return () => clearTimeout(timeout);
+  }, [dynamic_text1, typing]);
+
   return (
     <div className="topSection">
       <Section1 className="section1" />
@@ -26,15 +72,15 @@ const TopSection = () => {
       <GIFClippingPathShape className="GIFClippingPathShape" />
 
       <div className="intro">
-        <h1 className="title">
-          EMBS IEEE ENET'COM<br></br>2022
-        </h1>
-        <p>
-          We are the bad bitches that turn viruses into potions that heal or
-          corrupt depending on the sitch.<br></br>
-          If you want to learn some of this witchraft join us on this land we
-          call the witch's swamp.
-        </p>
+        <div className="titleContainer">
+          <h1 className="titleShadow">
+            EMBS IEEE ENET'COM<br></br>2022
+          </h1>
+          <h1 className="title">
+            EMBS IEEE ENET'COM<br></br>2022
+          </h1>
+        </div>
+        <p className="blinking-cursor">{dynamic_text1}</p>
       </div>
     </div>
   );
