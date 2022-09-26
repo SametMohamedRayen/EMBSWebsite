@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ReactComponent as Section1 } from "../SVG/Section1.svg";
 import { ReactComponent as GIFClippingPathShape } from "../SVG/GIFClippingPathShape.svg";
+import { ReactComponent as DNAParticle } from "../SVG/DNAParticle.svg";
 
 const TopSection = () => {
   const text1 =
@@ -9,7 +10,9 @@ const TopSection = () => {
     "If you want to learn some of this witchraft join us on this land we\n" +
     "call the witch's swamp.";
   const text2 =
-    "Lorem ipsum ihzgrjljk fgzrzjgrjgrklz lzegvrsgvggnlz fezolefe\nefzjjfeflelknfeefkefknfkelnfeklneflnlefqjflejqefllfnelfeflefelafeljaaafljfelj\nduiahgduzaphdazhda";
+    "Lorem ipsum ihzgrjljk fgzrzjgrjgrklz lzegvrsgvggnlz fezolefe\n" +
+    "efzjjfeflelknfeefkefknfkelnfeklnfqjflejqefllfnelfeflefelafeljaaafljfelj\n" +
+    "duiahgduzaphdazhda";
 
   const [dynamic_text1, setDynamicText1] = useState("");
   const textState = ["istyping1", "istyping2", "isdeleting1", "isdeleting2"];
@@ -82,6 +85,7 @@ const TopSection = () => {
         </div>
         <p className="blinking-cursor">{dynamic_text1}</p>
       </div>
+      <DNAParticle className="floatingDNA" />
     </div>
   );
 };

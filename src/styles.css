@@ -273,7 +273,7 @@ a {
 @font-face {
     font-family: "IndigoOutline";
     src: local("IndigoOutline"),
-    url("./fonts/Indigo/Indigo Outline.otf") format("truetype");
+    url("./fonts/Indigo/Indigo Outline.woff2") format("truetype");
     font-weight: bold;
 }
 
@@ -315,6 +315,9 @@ a {
     color: #112849;
     letter-spacing: 0.875vw;
     width: 100%;
+    font-weight: bold;
+    line-height: 3.75vw;
+    padding-top: 8.5vw;
 }
 
 .titleContainer {
@@ -333,7 +336,6 @@ a {
 .blinking-cursor::after {
     margin: 0;
     content: "|";
-    font-size: 3vw;
     animation: blink 1s step-end infinite;
 }
 @keyframes blink {
@@ -375,4 +377,35 @@ a {
     width: 100%;
     height: auto;
     opacity: 100%;
+}
+
+.floatingDNA {
+    animation: floating 10s infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    width:9%;
+    height:auto;
+    transform: translateY(45vw) translateX(10vw);
+}
+
+@keyframes floating {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(30vw) translateX(5vw) rotateZ(60deg);
+        opacity: 50%;
+    }
+    50%{
+        transform: translateY(20vw) translateX(5vw) rotateZ(-60deg);
+        opacity: 100%;
+    }
+    75%{
+        transform: translateY(10vw) translateX(7.5vw) rotateZ(40deg);
+        opacity: 50%;
+    }
+    100% {
+        transform: translateY(0vw) translateX(15vw) rotateZ(-30deg);
+        opacity: 0;
+    }
 }
