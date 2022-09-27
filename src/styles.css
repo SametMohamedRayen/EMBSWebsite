@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&family=Josefin+Sans:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap');
 
 body {
     margin: 0;
@@ -284,6 +286,9 @@ a {
     font-weight: bold;
 }
 
+.homeSections {
+}
+
 .topSection {
     position: relative;
 }
@@ -408,4 +413,60 @@ a {
         transform: translateY(0vw) translateX(15vw) rotateZ(-30deg);
         opacity: 0;
     }
+}
+
+.middleTopSection {
+    position: relative;
+    margin-top: 61%;
+}
+
+.newsHeadline {
+    animation: pullIn 1s 1;
+    font-family: 'Josefin Sans',sans-serif;
+    padding: 4.5vw 5vw;
+    font-size: 3vw;
+}
+
+.staffGrid {
+    display: flex;
+    flex-direction: column;
+    padding: 0 4vw;
+}
+
+.rowThirds {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6vw;
+}
+
+.rowHalves {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12vw;
+    padding: 6vw 12vw;
+}
+
+.staffElement {
+    display: block;
+    text-align: center;
+}
+
+.staffSvg {
+    height: fit-content;
+    width: 100%;
+}
+
+.staffName {
+    font-family: 'Lato',sans-serif;
+    font-size: 2vw;
+    font-weight: 900;
+}
+
+.staffPosition {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.125vw;
+    letter-spacing: 0.1vw ;
+    font-weight: 500;
 }

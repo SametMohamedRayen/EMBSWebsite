@@ -24,7 +24,6 @@ const TopSection = () => {
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      console.log(typing);
       if (typing === "istyping1" && dynamic_text1 !== text1) {
         setDynamicText1(text1.slice(0, dynamic_text1.length + 1));
       } else if (typing === "istyping2" && dynamic_text1 !== text2) {
