@@ -417,14 +417,63 @@ a {
 
 .middleTopSection {
     position: relative;
-    margin-top: 61%;
+    margin-top: 65%;
 }
 
-.newsHeadline {
+.bgMiddleTopSection {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 42%;
+    z-index: -2;
+}
+
+.staffHeadlineOff{
+    visibility: hidden;
+}
+
+.staffHeadlineOn {
+    font-family: 'Josefin Sans',sans-serif;
+    padding: 4.5vw 5vw;
+    font-size: 4.5vw;
+    color: #112849;
+    animation: bouncing 2s infinite;
+}
+
+@keyframes bouncing {
+    0%{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-0.5vw);
+    }
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+.staffHeadlineShadowOff{
+    visibility: hidden;
+}
+
+.staffHeadlineShadowOn {
     animation: pullIn 1s 1;
     font-family: 'Josefin Sans',sans-serif;
     padding: 4.5vw 5vw;
-    font-size: 3vw;
+    font-size: 4.5vw;
+    opacity: 50%;
+    margin-top: 0.5vw;
+    color: #112849;
+}
+
+@keyframes pullIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
 }
 
 .staffGrid {
@@ -451,6 +500,7 @@ a {
 .staffElement {
     display: block;
     text-align: center;
+    position: relative;
 }
 
 .staffSvg {
@@ -470,3 +520,101 @@ a {
     letter-spacing: 0.1vw ;
     font-weight: 500;
 }
+
+.crownPosition {
+    position: absolute;
+    width: 6vw;
+    height: auto;
+    transform: rotateZ(30deg);
+    margin-top: -30vw;
+    margin-left: 0.7vw;
+    visibility: hidden;
+}
+
+.crownPositionHover{
+    position: absolute;
+    width: 6vw;
+    height: auto;
+    transform: rotateZ(30deg);
+    margin-top: -44.7vw;
+    margin-left: 0.7vw;
+    visibility: visible;
+    transition-duration: 500ms;
+}
+
+.moneyBagPosition {
+    position: absolute;
+    width: 6vw;
+    height: auto;
+    transform: rotateZ(1deg);
+    margin-top: 0;
+    margin-left: 0.7vw;
+    visibility: hidden;
+}
+
+.moneyBagPositionHover{
+    position: absolute;
+    width: 6vw;
+    height: auto;
+    transform: rotateZ(15deg);
+    margin-top: -21vw;
+    margin-left: 5.9vw;
+    visibility: visible;
+    transition-duration: 500ms;
+}
+
+.glassesPosition{
+    position: absolute;
+    width: 6.5vw;
+    height: auto;
+    transform: rotateZ(-10deg);
+    margin-top: -20vw;
+    margin-left: -2vw;
+    visibility: hidden;
+}
+
+.glassesPositionHover{
+    position: absolute;
+    width: 6.5vw;
+    height: auto;
+    transform: rotateZ(0deg);
+    margin-top: -36.75vw;
+    margin-left: -3.25vw;
+    transition-duration: 500ms;
+    visibility: visible;
+}
+
+.bookAndQuillPosition{
+    position: absolute;
+    width: 6.5vw;
+    height: auto;
+    transform: rotateZ(10deg);
+    margin-top: -20vw;
+    margin-left: -2vw;
+    visibility: hidden;
+}
+
+.bookAndQuillPositionHover{
+    position: absolute;
+    width: 6.5vw;
+    height: auto;
+    transform: rotateZ(30deg);
+    margin-top: -22.5vw;
+    margin-left: -6vw;
+    transition-duration: 500ms;
+    visibility: visible;
+}
+
+
+/* UTILITIES */
+
+.fit-content {
+    width: fit-content;
+    height: auto;
+}
+
+.absolute {
+    position: absolute;
+}
+
+
