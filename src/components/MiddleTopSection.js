@@ -5,6 +5,7 @@ import basicCrown from "../images/crown.png";
 import moneyBag from "../images/money-bag.png";
 import glasses from "../images/glasses.png";
 import bookAndQuill from "../images/writing.png";
+import TextSlider from "./TextSlider";
 
 const MiddleTopSection = () => {
   const [staffOn, setStaff] = useState(false);
@@ -30,6 +31,7 @@ const MiddleTopSection = () => {
       <img
         src={require("../images/MiddleTopSectionBg.png")}
         className="bgMiddleTopSection"
+        alt="background"
       />
       <div className="middleTopSection">
         <h1
@@ -120,6 +122,7 @@ const MiddleTopSection = () => {
             </div>
           </div>
         </div>
+        <TextSlider texts={["quote1", "quote2", "quote3"]} />
       </div>
     </>
   );

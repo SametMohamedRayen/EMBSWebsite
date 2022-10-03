@@ -458,22 +458,12 @@ a {
 }
 
 .staffHeadlineShadowOn {
-    animation: pullIn 1s 1;
     font-family: 'Josefin Sans',sans-serif;
     padding: 4.5vw 5vw;
     font-size: 4.5vw;
     opacity: 50%;
     margin-top: 0.5vw;
     color: #112849;
-}
-
-@keyframes pullIn {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 100%;
-    }
 }
 
 .staffGrid {
@@ -508,17 +498,36 @@ a {
     width: 100%;
 }
 
-.staffName {
-    font-family: 'Lato',sans-serif;
-    font-size: 2vw;
-    font-weight: 900;
-}
-
 .staffPosition {
     font-family: 'Lato', sans-serif;
-    font-size: 1.125vw;
+    font-size: 1.5vw;
     letter-spacing: 0.1vw ;
+    margin-top: -0.5vw;
     font-weight: 500;
+    color: #112849;
+    overflow: hidden;
+    text-align: center;
+}
+
+.staffPosition:before,
+.staffPosition:after {
+    background-color: #112849;
+    content: "";
+    display: inline-block;
+    height: 0.11vw;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+}
+
+.staffPosition:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.staffPosition:after {
+    left: 0.5em;
+    margin-right: -50%;
 }
 
 .crownPosition {
@@ -605,6 +614,19 @@ a {
     visibility: visible;
 }
 
+.slidingText {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+.cloud {
+    width: 75%;
+    position: absolute;
+}
+
 
 /* UTILITIES */
 
@@ -615,6 +637,15 @@ a {
 
 .absolute {
     position: absolute;
+}
+
+.gradientText-lato-2-900-darkBlue-20-lightBlue-150 {
+    background: radial-gradient(circle at center,#112849 20%,#0CC5CB 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Lato',sans-serif;
+    font-size: 2vw;
+    font-weight: 900;
 }
 
 

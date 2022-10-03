@@ -75,9 +75,9 @@ const TopSection = () => {
 
       <div className="intro">
         <div className="titleContainer">
-          <h1 className="titleShadow">
+          {/*<h1 className="titleShadow">
             EMBS IEEE ENET'COM<br></br>2022
-          </h1>
+          </h1>*/}
           <h1 className="title">
             EMBS IEEE ENET'COM<br></br>2022
           </h1>
