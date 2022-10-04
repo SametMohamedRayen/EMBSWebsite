@@ -122,7 +122,15 @@ const MiddleTopSection = () => {
             </div>
           </div>
         </div>
-        <TextSlider texts={["quote1", "quote2", "quote3"]} />
+        <TextSlider
+          texts={[
+            '"Ahlem\'s quote in italic"\n -Ahlem Marzougi-',
+            `"Ahmed's quote in italic"\n -Ahmed Chtourou-`,
+            `"Oumayma's quote in italic"\n -Oumayma Trifii-`,
+            `"Rayen's quote in italic"\n -Mohamed Rayen Samet-`,
+            `"Mohamed's quote in italic"\n -Mohamed Turki-`,
+          ]}
+        />
       </div>
     </>
   );
