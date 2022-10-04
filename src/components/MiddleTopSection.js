@@ -8,14 +8,14 @@ import bookAndQuill from "../images/writing.png";
 import TextSlider from "./TextSlider";
 
 const MiddleTopSection = () => {
-  const [staffOn, setStaff] = useState(false);
+  /*const [staffOn, setStaff] = useState(false);*/
   const [rubyCrownHover, setRubyCrownHover] = useState(false);
   const [basicCrownHover, setBasicCrownHover] = useState(false);
   const [moneyBagHover, setMoneyBagHover] = useState(false);
   const [glassesHover, setGlassesHover] = useState(false);
   const [bookAndQuillHover, setBookAndQuillHover] = useState(false);
 
-  const BringStaffOn = () => {
+  /*const BringStaffOn = () => {
     if (window.scrollY >= 300) {
       setStaff(true);
     }
@@ -24,7 +24,7 @@ const MiddleTopSection = () => {
   useEffect(() => {
     BringStaffOn();
     window.addEventListener("scroll", BringStaffOn);
-  });
+  });*/
 
   return (
     <>
@@ -36,12 +36,12 @@ const MiddleTopSection = () => {
       <div className="middleTopSection">
         <h1
           className={
-            "staffHeadlineShadow" + (staffOn ? "On" : "Off") + " absolute"
+            "staffHeadlineShadow" + (true ? "On" : "Off") + " absolute"
           }
         >
           M<span style={{ color: "#0CC5CB" }}>ieee</span>t the Team
         </h1>
-        <h1 className={"staffHeadline" + (staffOn ? "On" : "Off")}>
+        <h1 className={"staffHeadline" + (true ? "On" : "Off")}>
           M<span style={{ color: "#0CC5CB" }}>ieee</span>t the Team
         </h1>
         <div className="staffGrid">
