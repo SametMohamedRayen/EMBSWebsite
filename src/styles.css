@@ -660,6 +660,54 @@ a {
     margin-top: 22vw;
 }
 
+.activitiesHexFrame {
+    width: 90%;
+    height: auto;
+}
+
+.activities {
+    margin-top: -10.5vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.highlightEventLeft {
+    transform-origin: left;
+    transform: scale(125%);
+    transition-duration: 500ms;
+}
+
+.highlightEventCenter {
+    transform-origin: center;
+    transform: scale(125%);
+    transition-duration: 500ms;
+}
+
+.highlightEventRight {
+    transform-origin: right;
+    transform: scale(125%);
+    transition-duration: 500ms;
+}
+
+.diminishEventLeft {
+    transform-origin: left ;
+    transform: scale(75%);
+    transition-duration: 500ms;
+}
+
+.diminishEventCenter {
+    transform-origin: center ;
+    transform: scale(75%);
+    transition-duration: 500ms;
+}
+
+.diminishEventRight {
+    transform-origin: right ;
+    transform: scale(75%);
+    transition-duration: 500ms;
+}
+
 
 /* UTILITIES */
 
@@ -685,4 +733,9 @@ a {
     white-space: pre-wrap;
 }
 
+.picFitFrame {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+}
 
