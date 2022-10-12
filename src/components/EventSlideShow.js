@@ -29,11 +29,11 @@ const EventSlideShow = (props) => {
   return (
     <svg
       className="activitiesHexFrame"
-      viewBox="0 0 5304 2449"
+      viewBox="0 0 5304 3449"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g id="Hexagons">
+      <g id="Hexagons" className="positionLower">
         <g
           id="LeftHex"
           onMouseEnter={() => setIsHovered(0)}
@@ -43,7 +43,7 @@ const EventSlideShow = (props) => {
               ? "highlightEventLeft"
               : isHovered === 1 || isHovered === 2
               ? "diminishEventLeft"
-              : ""
+              : "setDefaultCss-trans-500"
           }
         >
           <g id="LeftHexFrame">
@@ -120,7 +120,7 @@ const EventSlideShow = (props) => {
               ? "diminishEventRight"
               : isHovered === 2
               ? "diminishEventLeft"
-              : ""
+              : "setDefaultCss-trans-500"
           }
         >
           <g id="MiddleHexFrame">
@@ -223,7 +223,7 @@ const EventSlideShow = (props) => {
               ? "highlightEventRight"
               : isHovered === 0 || isHovered === 1
               ? "diminishEventRight"
-              : ""
+              : "setDefaultCss-trans-500"
           }
         >
           <g id="RightHexFrame">

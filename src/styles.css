@@ -646,7 +646,7 @@ a {
 .cloud {
     width: 75%;
     position: absolute;
-    margin-top: -17vw;
+    margin-top: -9vw;
 
 }
 
@@ -708,6 +708,15 @@ a {
     transition-duration: 500ms;
 }
 
+.positionLower {
+    transform: translateY(35vw);
+}
+
+#DNARight {
+    width: 30%;
+    position: absolute;
+}
+
 
 /* UTILITIES */
 
@@ -734,8 +743,13 @@ a {
 }
 
 .picFitFrame {
-    object-fit: cover;
-    height: 100%;
+    horiz-align: center;
+    object-fit: contain;
+    height: 14.5%;
     width: auto;
+}
+
+.setDefaultCss-trans-500 {
+    transition-duration: 500ms;
 }
 
