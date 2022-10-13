@@ -713,8 +713,88 @@ a {
 }
 
 #DNARight {
-    width: 30%;
+    width: 60%;
     position: absolute;
+    margin-left: 42vw;
+    margin-top: -92.5vw;
+    z-index: -3;
+}
+
+/* FOOTER */
+
+.footerBg {
+    width: 100%;
+    height: auto;
+    float: bottom;
+    display: block;
+    opacity: 60%;
+    position: absolute;
+    z-index: -1;
+}
+
+.footerLogos {
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.footer {
+    position: relative;
+}
+
+.footerGrid {
+    align-self: center;
+    padding: 14vw 5vw 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 16vw;
+    flex-direction: row;
+    height: fit-content;
+}
+
+.column {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.columnRight {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vw;
+    line-height: 3vw;
+}
+
+.hashtags {
+    padding-top: 3vw;
+    padding-left: 1vw;
+}
+
+.contactsIcon {
+    color: white;
+    width: 1.25vw;
+    height: auto;
+    margin-right: 1vw;
+    vertical-align: middle ;
+}
+
+.contactsHeader {
+    text-align: center;
+}
+
+.socialsRow {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0.5vw;
+    margin: 2vw 10vw;
+}
+
+.socialsFooter {
+    width: 3vw;
+    height: auto;
+    color: white;
 }
 
 
@@ -753,3 +833,62 @@ a {
     transition-duration: 500ms;
 }
 
+.centerText {
+    text-align: center;
+}
+
+.font-indigo-regular {
+    font-family: 'IndigoRegular', sans-serif;
+}
+
+.font-size-175 {
+    font-size: 1.75vw;
+}
+
+.font-color-white {
+    color: white;
+}
+
+.letter-space-25 {
+    letter-spacing: 0.25vw;
+}
+
+.font-albori {
+    font-family: 'AlboriRegular', sans-serif;
+}
+
+.font-lato {
+    font-family: "Lato",sans-serif;
+}
+
+.font-w-500 {
+    font-weight: 500;
+}
+
+.font-size-125 {
+    font-size: 1.25vw;
+}
+
+.font-size-140 {
+    font-size: 1.4vw;
+}
+
+.align-middle {
+    vertical-align: middle ;
+}
+
+.font-josefin-sans {
+    font-family: "Josefin Sans",sans-serif;
+}
+
+.font-color-blue {
+    color: #24549B;
+}
+
+.font-size-2 {
+    font-size: 2vw;
+}
+
+.pause {
+    height: 1.5vw;
+}

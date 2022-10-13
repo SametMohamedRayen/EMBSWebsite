@@ -15,7 +15,7 @@ import EventSlideShow from "./EventSlideShow";
 const MiddleBottomSection = () => {
   return (
     <>
-      <DNA id="DNARight" />
+      {/* <DNA id="DNARight" />*/}
       <div className="middleBottomSection">
         <h1
           className={

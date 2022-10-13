@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import TopSection from "./TopSection";
 import MiddleTopSection from "./MiddleTopSection";
 import MiddleBottomSection from "./MiddleBottomSection";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <MiddleTopSection />
         <MiddleBottomSection />
       </div>
+      <Footer />
     </>
   );
 };
