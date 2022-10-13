@@ -56,7 +56,7 @@ const Navbar = () => {
                       x2="64.4386"
                       y2="13.7059"
                       stroke="url(#paint0_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <line
                       id="Line 33"
@@ -65,7 +65,7 @@ const Navbar = () => {
                       x2="10"
                       y2="108"
                       stroke="url(#paint1_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <circle
                       id="Ellipse 19"
@@ -73,7 +73,7 @@ const Navbar = () => {
                       cy="10.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 22"
@@ -81,7 +81,7 @@ const Navbar = () => {
                       cy="115.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 23"
@@ -89,7 +89,7 @@ const Navbar = () => {
                       cy="156.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 24"
@@ -97,7 +97,7 @@ const Navbar = () => {
                       cy="51.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <line
                       id="Line 34"
@@ -106,7 +106,7 @@ const Navbar = () => {
                       x2="76.5614"
                       y2="152.294"
                       stroke="url(#paint2_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <line
                       id="Line 35"
@@ -115,7 +115,7 @@ const Navbar = () => {
                       x2="131"
                       y2="58"
                       stroke="url(#paint3_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                   </g>
                   <defs>
@@ -127,8 +127,8 @@ const Navbar = () => {
                       y2="30"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint1_linear_171_98"
@@ -138,8 +138,8 @@ const Navbar = () => {
                       y2="88.5"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint2_linear_171_98"
@@ -149,8 +149,8 @@ const Navbar = () => {
                       y2="139"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint3_linear_171_98"
@@ -160,8 +160,8 @@ const Navbar = () => {
                       y2="77.5"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                   </defs>
                 </svg>
@@ -188,7 +188,7 @@ const Navbar = () => {
                       x2="64.4386"
                       y2="13.7059"
                       stroke="url(#paint0_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <line
                       id="Line 33"
@@ -197,7 +197,7 @@ const Navbar = () => {
                       x2="10"
                       y2="108"
                       stroke="url(#paint1_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <circle
                       id="Ellipse 19"
@@ -205,7 +205,7 @@ const Navbar = () => {
                       cy="10.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 22"
@@ -213,7 +213,7 @@ const Navbar = () => {
                       cy="115.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 23"
@@ -221,7 +221,7 @@ const Navbar = () => {
                       cy="156.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 24"
@@ -229,7 +229,7 @@ const Navbar = () => {
                       cy="51.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <line
                       id="Line 34"
@@ -238,7 +238,7 @@ const Navbar = () => {
                       x2="76.5614"
                       y2="152.294"
                       stroke="url(#paint2_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <line
                       id="Line 35"
@@ -247,7 +247,7 @@ const Navbar = () => {
                       x2="131"
                       y2="58"
                       stroke="url(#paint3_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                   </g>
                   <defs>
@@ -259,8 +259,8 @@ const Navbar = () => {
                       y2="30"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint1_linear_171_98"
@@ -270,8 +270,8 @@ const Navbar = () => {
                       y2="88.5"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint2_linear_171_98"
@@ -281,8 +281,8 @@ const Navbar = () => {
                       y2="139"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint3_linear_171_98"
@@ -292,8 +292,8 @@ const Navbar = () => {
                       y2="77.5"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                   </defs>
                 </svg>
@@ -320,7 +320,7 @@ const Navbar = () => {
                       x2="64.4386"
                       y2="13.7059"
                       stroke="url(#paint0_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <line
                       id="Line 33"
@@ -329,7 +329,7 @@ const Navbar = () => {
                       x2="10"
                       y2="108"
                       stroke="url(#paint1_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <circle
                       id="Ellipse 19"
@@ -337,7 +337,7 @@ const Navbar = () => {
                       cy="10.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 22"
@@ -345,7 +345,7 @@ const Navbar = () => {
                       cy="115.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 23"
@@ -353,7 +353,7 @@ const Navbar = () => {
                       cy="156.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 24"
@@ -361,7 +361,7 @@ const Navbar = () => {
                       cy="51.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <line
                       id="Line 34"
@@ -370,7 +370,7 @@ const Navbar = () => {
                       x2="76.5614"
                       y2="152.294"
                       stroke="url(#paint2_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <line
                       id="Line 35"
@@ -379,7 +379,7 @@ const Navbar = () => {
                       x2="131"
                       y2="58"
                       stroke="url(#paint3_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                   </g>
                   <defs>
@@ -391,8 +391,8 @@ const Navbar = () => {
                       y2="30"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint1_linear_171_98"
@@ -402,8 +402,8 @@ const Navbar = () => {
                       y2="88.5"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint2_linear_171_98"
@@ -413,8 +413,8 @@ const Navbar = () => {
                       y2="139"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint3_linear_171_98"
@@ -424,8 +424,8 @@ const Navbar = () => {
                       y2="77.5"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                   </defs>
                 </svg>
@@ -452,7 +452,7 @@ const Navbar = () => {
                       x2="64.4386"
                       y2="13.7059"
                       stroke="url(#paint0_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <line
                       id="Line 33"
@@ -461,7 +461,7 @@ const Navbar = () => {
                       x2="10"
                       y2="108"
                       stroke="url(#paint1_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <circle
                       id="Ellipse 19"
@@ -469,7 +469,7 @@ const Navbar = () => {
                       cy="10.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 22"
@@ -477,7 +477,7 @@ const Navbar = () => {
                       cy="115.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 23"
@@ -485,7 +485,7 @@ const Navbar = () => {
                       cy="156.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <circle
                       id="Ellipse 24"
@@ -493,7 +493,7 @@ const Navbar = () => {
                       cy="51.5"
                       r="8"
                       stroke="#24549B"
-                      stroke-width="5"
+                      strokeWidth="5"
                     />
                     <line
                       id="Line 34"
@@ -502,7 +502,7 @@ const Navbar = () => {
                       x2="76.5614"
                       y2="152.294"
                       stroke="url(#paint2_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                     <line
                       id="Line 35"
@@ -511,7 +511,7 @@ const Navbar = () => {
                       x2="131"
                       y2="58"
                       stroke="url(#paint3_linear_171_98)"
-                      stroke-width="10"
+                      strokeWidth="10"
                     />
                   </g>
                   <defs>
@@ -523,8 +523,8 @@ const Navbar = () => {
                       y2="30"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint1_linear_171_98"
@@ -534,8 +534,8 @@ const Navbar = () => {
                       y2="88.5"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint2_linear_171_98"
@@ -545,8 +545,8 @@ const Navbar = () => {
                       y2="139"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                     <linearGradient
                       id="paint3_linear_171_98"
@@ -556,8 +556,8 @@ const Navbar = () => {
                       y2="77.5"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#0CC5CB" />
-                      <stop offset="1" stop-color="#24549B" />
+                      <stop stopColor="#0CC5CB" />
+                      <stop offset="1" stopColor="#24549B" />
                     </linearGradient>
                   </defs>
                 </svg>
@@ -583,7 +583,7 @@ const Navbar = () => {
                       x2="326.615"
                       y2="329.989"
                       stroke="url(#paint0_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <circle
                       id="Ellipse 13"
@@ -591,7 +591,7 @@ const Navbar = () => {
                       cy="227.097"
                       r="9"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 15"
@@ -599,7 +599,7 @@ const Navbar = () => {
                       cy="452.097"
                       r="9"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 14"
@@ -607,7 +607,7 @@ const Navbar = () => {
                       cy="361.597"
                       r="11.5"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <line
                       id="Line 18"
@@ -616,13 +616,13 @@ const Navbar = () => {
                       x2="376.615"
                       y2="230.989"
                       stroke="#24549B"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <path
                       id="Polygon 1"
                       d="M74.2791 43.3291L137.097 7.06116L199.915 43.3291V115.865L137.097 152.133L74.2791 115.865V43.3291Z"
                       stroke="#0CC5CB"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 4"
@@ -631,7 +631,7 @@ const Navbar = () => {
                       x2="242.615"
                       y2="18.9887"
                       stroke="url(#paint1_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 11"
@@ -640,7 +640,7 @@ const Navbar = () => {
                       x2="389.583"
                       y2="7.00715"
                       stroke="#0CC5CB"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 9"
@@ -649,7 +649,7 @@ const Navbar = () => {
                       x2="327.615"
                       y2="114.989"
                       stroke="url(#paint2_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 14"
@@ -658,7 +658,7 @@ const Navbar = () => {
                       x2="448.615"
                       y2="114.989"
                       stroke="url(#paint3_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 23"
@@ -667,7 +667,7 @@ const Navbar = () => {
                       x2="433.615"
                       y2="342.989"
                       stroke="url(#paint4_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 6"
@@ -676,7 +676,7 @@ const Navbar = () => {
                       x2="73.614"
                       y2="115.989"
                       stroke="url(#paint5_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 5"
@@ -685,7 +685,7 @@ const Navbar = () => {
                       x2="23.6086"
                       y2="15.2018"
                       stroke="url(#paint6_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 8"
@@ -694,7 +694,7 @@ const Navbar = () => {
                       x2="284.545"
                       y2="20.1642"
                       stroke="url(#paint7_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 13"
@@ -703,7 +703,7 @@ const Navbar = () => {
                       x2="324.545"
                       y2="114.164"
                       stroke="url(#paint8_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 17"
@@ -712,7 +712,7 @@ const Navbar = () => {
                       x2="261.574"
                       y2="222.182"
                       stroke="url(#paint9_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 21"
@@ -721,7 +721,7 @@ const Navbar = () => {
                       x2="326.547"
                       y2="331.166"
                       stroke="#0CC5CB"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 12"
@@ -730,7 +730,7 @@ const Navbar = () => {
                       x2="386.545"
                       y2="7.16426"
                       stroke="url(#paint10_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 7"
@@ -739,7 +739,7 @@ const Navbar = () => {
                       x2="200.553"
                       y2="116.17"
                       stroke="url(#paint11_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 24"
@@ -748,8 +748,8 @@ const Navbar = () => {
                       x2="450.526"
                       y2="123.675"
                       stroke="#0CC5CB"
-                      stroke-width="3"
-                      stroke-linecap="round"
+                      strokeWidth="3"
+                      strokeLinecap="round"
                     />
                     <line
                       id="Line 25"
@@ -758,8 +758,8 @@ const Navbar = () => {
                       x2="454.526"
                       y2="117.675"
                       stroke="#0CC5CB"
-                      stroke-width="3"
-                      stroke-linecap="round"
+                      strokeWidth="3"
+                      strokeLinecap="round"
                     />
                     <circle
                       id="Ellipse 3"
@@ -767,7 +767,7 @@ const Navbar = () => {
                       cy="16.0971"
                       r="7"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 5"
@@ -775,7 +775,7 @@ const Navbar = () => {
                       cy="17.0971"
                       r="7"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 6"
@@ -783,7 +783,7 @@ const Navbar = () => {
                       cy="143.097"
                       r="7"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 11"
@@ -791,7 +791,7 @@ const Navbar = () => {
                       cy="167.097"
                       r="7"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 7"
@@ -799,7 +799,7 @@ const Navbar = () => {
                       cy="37.0971"
                       r="7"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 8"
@@ -807,7 +807,7 @@ const Navbar = () => {
                       cy="61.097"
                       r="7"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 9"
@@ -815,7 +815,7 @@ const Navbar = () => {
                       cy="144.097"
                       r="7"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 10"
@@ -823,7 +823,7 @@ const Navbar = () => {
                       cy="143.097"
                       r="7"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 16"
@@ -831,7 +831,7 @@ const Navbar = () => {
                       cy="339.097"
                       r="7"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 4"
@@ -839,7 +839,7 @@ const Navbar = () => {
                       cy="143.097"
                       r="7"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 2"
@@ -848,7 +848,7 @@ const Navbar = () => {
                       r="9"
                       transform="rotate(55.5772 14.5969 148.097)"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 17"
@@ -857,7 +857,7 @@ const Navbar = () => {
                       r="9"
                       transform="rotate(93.3582 14.5969 11.097)"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <circle
                       id="Ellipse 12"
@@ -865,7 +865,7 @@ const Navbar = () => {
                       cy="259.097"
                       r="9"
                       stroke="#24549B"
-                      stroke-width="3"
+                      strokeWidth="3"
                     />
                     <line
                       id="Line 10"
@@ -874,7 +874,7 @@ const Navbar = () => {
                       x2="326.097"
                       y2="117.597"
                       stroke="#0CC5CB"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 19"
@@ -883,7 +883,7 @@ const Navbar = () => {
                       x2="325.097"
                       y2="332.597"
                       stroke="url(#paint12_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 22"
@@ -892,7 +892,7 @@ const Navbar = () => {
                       x2="388.097"
                       y2="442.597"
                       stroke="url(#paint13_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 16"
@@ -901,7 +901,7 @@ const Navbar = () => {
                       x2="263.097"
                       y2="224.597"
                       stroke="url(#paint14_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                     <line
                       id="Line 15"
@@ -910,7 +910,7 @@ const Navbar = () => {
                       x2="447.097"
                       y2="68.5971"
                       stroke="url(#paint15_linear_147_78)"
-                      stroke-width="6"
+                      strokeWidth="6"
                     />
                   </g>
                   <g id="Line1" className={isOn === 1 ? "Line1Anim" : ""}>
@@ -918,8 +918,8 @@ const Navbar = () => {
                       id="Line 26"
                       d="M86.3581 52.2917L139.358 22.2917"
                       stroke="#0CC5CB"
-                      stroke-width="3"
-                      stroke-linecap="round"
+                      strokeWidth="3"
+                      strokeLinecap="round"
                     />
                   </g>
                   <g id="Line3" className={isOn === 1 ? "Line3Anim" : ""}>
@@ -927,8 +927,8 @@ const Navbar = () => {
                       id="Line 28"
                       d="M88.097 107.597L137.097 135.597"
                       stroke="#0CC5CB"
-                      stroke-width="3"
-                      stroke-linecap="round"
+                      strokeWidth="3"
+                      strokeLinecap="round"
                     />
                   </g>
                   <g id="Line2" className={isOn === 1 ? "Line2Anim" : ""}>
@@ -936,8 +936,8 @@ const Navbar = () => {
                       id="Line 27"
                       d="M184.097 108.597L184.097 52.597"
                       stroke="#0CC5CB"
-                      stroke-width="3"
-                      stroke-linecap="round"
+                      strokeWidth="3"
+                      strokeLinecap="round"
                     />
                   </g>
                   <g id="Line4" className={isOn === 2 ? "Line4Anim" : ""}>
@@ -945,8 +945,8 @@ const Navbar = () => {
                       id="Line 29"
                       d="M215.097 108.597L215.097 52.597"
                       stroke="#0CC5CB"
-                      stroke-width="3"
-                      stroke-linecap="round"
+                      strokeWidth="3"
+                      strokeLinecap="round"
                     />
                   </g>
                   <g id="Line5" className={isOn === 2 ? "Line5Anim" : ""}>
@@ -954,8 +954,8 @@ const Navbar = () => {
                       id="Line 30"
                       d="M311.097 108.597L311.097 52.597"
                       stroke="#0CC5CB"
-                      stroke-width="3"
-                      stroke-linecap="round"
+                      strokeWidth="3"
+                      strokeLinecap="round"
                     />
                   </g>
                   <g id="Line6" className={isOn === 3 ? "Line6Anim" : ""}>
@@ -963,8 +963,8 @@ const Navbar = () => {
                       id="Line 31"
                       d="M340.749 53.0931L389 24.6702"
                       stroke="#0CC5CB"
-                      stroke-width="3"
-                      stroke-linecap="round"
+                      strokeWidth="3"
+                      strokeLinecap="round"
                     />
                   </g>
                 </g>
@@ -977,8 +977,8 @@ const Navbar = () => {
                     y2="345.597"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.218237" stop-color="#0CC5CB" />
-                    <stop offset="1" stop-color="#24549B" />
+                    <stop offset="0.218237" stopColor="#0CC5CB" />
+                    <stop offset="1" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_147_78"
@@ -988,8 +988,8 @@ const Navbar = () => {
                     y2="28.0971"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="1" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="1" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_147_78"
@@ -999,8 +999,8 @@ const Navbar = () => {
                     y2="142.597"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="0.464514" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="0.464514" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint3_linear_147_78"
@@ -1010,8 +1010,8 @@ const Navbar = () => {
                     y2="130.597"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="1" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="1" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint4_linear_147_78"
@@ -1021,8 +1021,8 @@ const Navbar = () => {
                     y2="355.597"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="1" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="1" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint5_linear_147_78"
@@ -1032,9 +1032,9 @@ const Navbar = () => {
                     y2="147.597"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="0.9999" stop-color="#24549B" />
-                    <stop offset="1" stop-color="#0CC5CB" stop-opacity="0" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="0.9999" stopColor="#24549B" />
+                    <stop offset="1" stopColor="#0CC5CB" stopOpacity="0" />
                   </linearGradient>
                   <linearGradient
                     id="paint6_linear_147_78"
@@ -1044,8 +1044,8 @@ const Navbar = () => {
                     y2="34.597"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#24549B" />
-                    <stop offset="1" stop-color="#0CC5CB" />
+                    <stop stopColor="#24549B" />
+                    <stop offset="1" stopColor="#0CC5CB" />
                   </linearGradient>
                   <linearGradient
                     id="paint7_linear_147_78"
@@ -1055,8 +1055,8 @@ const Navbar = () => {
                     y2="21.0971"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="0.6116" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="0.6116" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint8_linear_147_78"
@@ -1066,8 +1066,8 @@ const Navbar = () => {
                     y2="126.097"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="1" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="1" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint9_linear_147_78"
@@ -1077,8 +1077,8 @@ const Navbar = () => {
                     y2="239.597"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="1" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="1" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint10_linear_147_78"
@@ -1088,8 +1088,8 @@ const Navbar = () => {
                     y2="16.7413"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="1" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="1" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint11_linear_147_78"
@@ -1099,8 +1099,8 @@ const Navbar = () => {
                     y2="133.097"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="1" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="1" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint12_linear_147_78"
@@ -1110,8 +1110,8 @@ const Navbar = () => {
                     y2="296.097"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="1" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="1" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint13_linear_147_78"
@@ -1121,8 +1121,8 @@ const Navbar = () => {
                     y2="419.097"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="0.702892" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="0.702892" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint14_linear_147_78"
@@ -1132,8 +1132,8 @@ const Navbar = () => {
                     y2="198.597"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="1" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="1" stopColor="#24549B" />
                   </linearGradient>
                   <linearGradient
                     id="paint15_linear_147_78"
@@ -1143,8 +1143,8 @@ const Navbar = () => {
                     y2="93.0971"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0CC5CB" />
-                    <stop offset="1" stop-color="#24549B" />
+                    <stop stopColor="#0CC5CB" />
+                    <stop offset="1" stopColor="#24549B" />
                   </linearGradient>
                 </defs>
               </svg>

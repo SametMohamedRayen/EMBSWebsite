@@ -40,24 +40,24 @@ const Footer = () => {
               icon={["fas", "location-dot"]}
               className="contactsIcon"
             />
-            <text className="font-lato font-color-white font-w-500 font-size-125 align-middle">
+            <span className="font-lato font-color-white font-w-500 font-size-125 align-middle">
               Route de Tunis, Cité El Ons, Technopole de Sfax – 3018 Sfax
-            </text>
+            </span>
           </span>
           <span className="centerText">
             <FontAwesomeIcon icon={["fas", "phone"]} className="contactsIcon" />
-            <text className="font-lato font-color-white font-w-500 font-size-125 align-middle">
+            <span className="font-lato font-color-white font-w-500 font-size-125 align-middle">
               (+216) 55 074 545
-            </text>
+            </span>
           </span>
           <span className="centerText">
             <FontAwesomeIcon
               icon={["fas", "envelope"]}
               className="contactsIcon"
             />
-            <text className="font-lato font-color-white font-w-500 font-size-125 align-middle">
+            <span className="font-lato font-color-white font-w-500 font-size-125 align-middle">
               ieeeembsenetcom@gmail.com
-            </text>
+            </span>
           </span>
           <div className="socialsRow">
             <FontAwesomeIcon

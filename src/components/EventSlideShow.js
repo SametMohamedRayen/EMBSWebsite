@@ -19,7 +19,6 @@ const EventSlideShow = (props) => {
     if (isHovered !== -1) {
       setTimeout(() => {
         setIndex(index === 2 ? 0 : index + 1);
-        console.log(index);
       }, 3000);
     } else {
       setIndex(0);
@@ -29,7 +28,7 @@ const EventSlideShow = (props) => {
   return (
     <svg
       className="activitiesHexFrame"
-      viewBox="0 0 5304 3449"
+      viewBox="0 0 5650 3500"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

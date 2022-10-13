@@ -50,7 +50,7 @@ a {
 
 .navElements {
     display: flex;
-    gap: 14.5vw;
+    gap: 14.85vw;
  /*   justify-content: space-between;*/
 }
 
@@ -61,6 +61,7 @@ a {
     gap: 3vw;
     font-size: 1.85vw;
     padding-top: 1.9vw;
+    padding-left: 0;
 }
 
 .navElements ul a {
@@ -645,15 +646,19 @@ a {
 
 .cloud {
     width: 75%;
+    margin-top: -3vw;
     position: absolute;
-    margin-top: -9vw;
+    display: block;
+    height: auto;
 
 }
 
 .cloudParent {
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-content: center;
+    position: relative;
 }
 
 .middleBottomSection {
@@ -663,6 +668,8 @@ a {
 .activitiesHexFrame {
     width: 90%;
     height: auto;
+    margin-top: 0;
+    margin-right: -5.2vw;
 }
 
 .activities {
@@ -739,7 +746,9 @@ a {
 }
 
 .footer {
+    float: bottom;
     position: relative;
+    height: fit-content;
 }
 
 .footerGrid {
@@ -750,6 +759,7 @@ a {
     gap: 16vw;
     flex-direction: row;
     height: fit-content;
+    width: auto;
 }
 
 .column {
