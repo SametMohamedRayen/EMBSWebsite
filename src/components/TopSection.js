@@ -2,6 +2,11 @@ import React, { useEffect, useState } from "react";
 import { ReactComponent as Section1 } from "../SVG/Section1.svg";
 import { ReactComponent as GIFClippingPathShape } from "../SVG/GIFClippingPathShape.svg";
 import { ReactComponent as DNAParticle } from "../SVG/DNAParticle.svg";
+import { ReactComponent as Hexagona } from "../SVG/Hexagona.svg";
+import { ReactComponent as Blo9 } from "../SVG/Blo9.svg";
+import { ReactComponent as DNAParticleDark } from "../SVG/DNAParticleDark.svg";
+import { ReactComponent as HexagonaDark } from "../SVG/HexagonaDark.svg";
+import { ReactComponent as Blo9Dark } from "../SVG/Blo9Dark.svg";
 
 const TopSection = () => {
   const text1 =
@@ -85,6 +90,11 @@ const TopSection = () => {
         <p className="blinking-cursor">{dynamic_text1}</p>
       </div>
       <DNAParticle className="floatingDNA" />
+      <DNAParticleDark className="floatingDNABis" />
+      <Blo9Dark className="floatingBlo9" />
+      <Blo9 className="floatingBlo9Bis" />
+      <Hexagona className="floatingHexagona" />
+      <HexagonaDark className="floatingHexagonaBis" />
     </div>
   );
 };

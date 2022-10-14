@@ -387,7 +387,7 @@ a {
 }
 
 .floatingDNA {
-    animation: floating 10s infinite;
+    animation: floatingDNAAnim 10s infinite;
     animation-timing-function: linear;
     position: absolute;
     width:9%;
@@ -395,7 +395,52 @@ a {
     transform: translateY(45vw) translateX(10vw);
 }
 
-@keyframes floating {
+.floatingDNABis {
+    animation: floatingDNAAnimBis 15s infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    width:9%;
+    height:auto;
+    transform: translateY(45vw) translateX(80vw);
+}
+
+.floatingBlo9 {
+    animation: floatingBlo9Anim 12.5s infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    width:9%;
+    height:auto;
+    transform: translateY(40vw) translateX(20vw);
+}
+
+.floatingBlo9Bis {
+    animation: floatingBlo9AnimBis 8s infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    width:9%;
+    height:auto;
+    transform: translateY(45vw) translateX(70vw);
+}
+
+.floatingHexagona {
+    animation: floatingHexagonaAnim 10s infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    width:9%;
+    height:auto;
+    transform: translateY(40vw) translateX(15vw);
+}
+
+.floatingHexagonaBis {
+    animation: floatingHexagonaAnimBis 10s infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    width:9%;
+    height:auto;
+    transform: translateY(45vw) translateX(95vw);
+}
+
+@keyframes floatingDNAAnim {
     0% {
         opacity: 0;
     }
@@ -413,6 +458,116 @@ a {
     }
     100% {
         transform: translateY(0vw) translateX(15vw) rotateZ(-30deg);
+        opacity: 0;
+    }
+}
+
+@keyframes floatingDNAAnimBis {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(30vw) translateX(90vw) rotateZ(60deg);
+        opacity: 50%;
+    }
+    50%{
+        transform: translateY(20vw) translateX(70vw) rotateZ(-60deg);
+        opacity: 100%;
+    }
+    75%{
+        transform: translateY(10vw) translateX(65vw) rotateZ(40deg);
+        opacity: 50%;
+    }
+    100% {
+        transform: translateY(0vw) translateX(75vw) rotateZ(-30deg);
+        opacity: 0;
+    }
+}
+
+@keyframes floatingBlo9Anim {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(30vw) translateX(25vw) rotateZ(80deg);
+        opacity: 50%;
+    }
+    50%{
+        transform: translateY(20vw) translateX(15vw) rotateZ(-75deg);
+        opacity: 100%;
+    }
+    75%{
+        transform: translateY(10vw) translateX(20vw) rotateZ(15deg);
+        opacity: 50%;
+    }
+    100% {
+        transform: translateY(0vw) translateX(30vw) rotateZ(-30deg);
+        opacity: 0;
+    }
+}
+
+@keyframes floatingBlo9AnimBis {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(30vw) translateX(80vw) rotateZ(15deg);
+        opacity: 50%;
+    }
+    50%{
+        transform: translateY(20vw) translateX(90vw) rotateZ(-20deg);
+        opacity: 100%;
+    }
+    75%{
+        transform: translateY(10vw) translateX(80vw) rotateZ(65deg);
+        opacity: 50%;
+    }
+    100% {
+        transform: translateY(0vw) translateX(70vw) rotateZ(-95deg);
+        opacity: 0;
+    }
+}
+
+@keyframes floatingHexagonaAnim {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(30vw) translateX(20vw) rotateZ(15deg);
+        opacity: 50%;
+    }
+    50%{
+        transform: translateY(20vw) translateX(15vw) rotateZ(-20deg);
+        opacity: 100%;
+    }
+    75%{
+        transform: translateY(10vw) translateX(20vw) rotateZ(65deg);
+        opacity: 50%;
+    }
+    100% {
+        transform: translateY(0vw) translateX(10vw) rotateZ(-95deg);
+        opacity: 0;
+    }
+}
+
+@keyframes floatingHexagonaAnimBis {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(30vw) translateX(80vw) rotateZ(15deg);
+        opacity: 50%;
+    }
+    50%{
+        transform: translateY(20vw) translateX(70vw) rotateZ(-20deg);
+        opacity: 100%;
+    }
+    75%{
+        transform: translateY(10vw) translateX(70vw) rotateZ(65deg);
+        opacity: 50%;
+    }
+    100% {
+        transform: translateY(0vw) translateX(90vw) rotateZ(-95deg);
         opacity: 0;
     }
 }
