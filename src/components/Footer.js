@@ -20,7 +20,7 @@ const Footer = () => {
           />
           <div className="centerText hashtags">
             <p className="font-indigo-regular letter-space-25 font-size-175 font-color-white">
-              #Teams_Build_Dream
+              #Teams_Build_Dreams
             </p>
             <p className="font-indigo-regular letter-space-25 font-size-175 font-color-white">
               #IEEE_ENET'COM

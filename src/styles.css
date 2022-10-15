@@ -15,7 +15,7 @@ a {
 }
 
 .navbarShape {
-    z-index: -1;
+    z-index: 2;
     opacity: 0;
     transition-duration: 1s;
 }
@@ -24,7 +24,7 @@ a {
     position: fixed;
     width: 100%;
     height: auto;
-    z-index: 2;
+    z-index: 3;
 }
 
 .navbarScrolled {
@@ -361,6 +361,7 @@ a {
     padding-top: 15vw;
     position: absolute;
     width: 100%;
+    z-index: 2;
 }
 
 #GIFClippingPath {
@@ -388,7 +389,8 @@ a {
 }
 
 .floatingDNA {
-    animation: floatingDNAAnim 10s infinite;
+    animation: floatingDNAAnim 30s infinite;
+    visibility: hidden;
     animation-timing-function: linear;
     position: absolute;
     width:9%;
@@ -398,6 +400,8 @@ a {
 
 .floatingDNABis {
     animation: floatingDNAAnimBis 30s infinite;
+    animation-delay: 10s;
+    visibility: hidden;
     animation-timing-function: linear;
     position: absolute;
     width:9%;
@@ -407,6 +411,8 @@ a {
 
 .floatingBlo9 {
     animation: floatingBlo9Anim 30s infinite;
+    visibility: hidden;
+    animation-delay: 10s;
     animation-timing-function: linear;
     position: absolute;
     width:9%;
@@ -415,7 +421,9 @@ a {
 }
 
 .floatingBlo9Bis {
-    animation: floatingBlo9AnimBis 50s infinite;
+    animation: floatingBlo9AnimBis 30s infinite;
+    animation-delay: 20s;
+    visibility: hidden;
     animation-timing-function: linear;
     position: absolute;
     width:9%;
@@ -424,7 +432,9 @@ a {
 }
 
 .floatingHexagona {
-    animation: floatingHexagonaAnim 50s infinite;
+    animation: floatingHexagonaAnim 30s infinite;
+    visibility: hidden;
+    animation-delay: 20s;
     animation-timing-function: linear;
     position: absolute;
     width:9%;
@@ -433,8 +443,9 @@ a {
 }
 
 .floatingHexagonaBis {
-    animation: floatingHexagonaAnimBis 10s infinite;
+    animation: floatingHexagonaAnimBis 30s infinite;
     animation-timing-function: linear;
+    visibility: hidden;
     position: absolute;
     width:9%;
     height:auto;
@@ -443,133 +454,145 @@ a {
 
 @keyframes floatingDNAAnim {
     0% {
+        visibility: visible;
         opacity: 0;
     }
-    25% {
+    8.25% {
         transform: translateY(30vw) translateX(5vw) rotateZ(60deg);
         opacity: 50%;
     }
-    50%{
+    16.5%{
         transform: translateY(20vw) translateX(5vw) rotateZ(-60deg);
         opacity: 100%;
     }
-    75%{
+    24.75%{
         transform: translateY(10vw) translateX(7.5vw) rotateZ(40deg);
         opacity: 50%;
     }
-    100% {
+    33% {
         transform: translateY(0vw) translateX(15vw) rotateZ(-30deg);
         opacity: 0;
+        visibility: hidden;
     }
 }
 
 @keyframes floatingDNAAnimBis {
     0% {
+        visibility: visible;
         opacity: 0;
     }
-    25% {
+    8.25% {
         transform: translateY(30vw) translateX(90vw) rotateZ(60deg);
         opacity: 50%;
     }
-    50%{
+    16.5%{
         transform: translateY(20vw) translateX(70vw) rotateZ(-60deg);
         opacity: 100%;
     }
-    75%{
+    24.75%{
         transform: translateY(10vw) translateX(65vw) rotateZ(40deg);
         opacity: 50%;
     }
-    100% {
+    33% {
         transform: translateY(0vw) translateX(75vw) rotateZ(-30deg);
         opacity: 0;
+        visibility: hidden;
     }
 }
 
 @keyframes floatingBlo9Anim {
-    0% {
+    0%{
+        visibility: visible;
         opacity: 0;
     }
-    25% {
+    8.25% {
         transform: translateY(30vw) translateX(25vw) rotateZ(80deg);
         opacity: 50%;
     }
-    50%{
+    16.5%{
         transform: translateY(20vw) translateX(15vw) rotateZ(-75deg);
         opacity: 100%;
     }
-    75%{
+    24.75%{
         transform: translateY(10vw) translateX(20vw) rotateZ(15deg);
         opacity: 50%;
     }
-    100% {
+    33% {
         transform: translateY(0vw) translateX(30vw) rotateZ(-30deg);
         opacity: 0;
+        visibility: hidden;
     }
 }
 
 @keyframes floatingBlo9AnimBis {
     0% {
+        visibility: visible;
         opacity: 0;
     }
-    25% {
+    8.25% {
         transform: translateY(30vw) translateX(80vw) rotateZ(15deg);
         opacity: 50%;
     }
-    50%{
+    16.5%{
         transform: translateY(20vw) translateX(90vw) rotateZ(-20deg);
         opacity: 100%;
     }
-    75%{
+    24.75%{
         transform: translateY(10vw) translateX(80vw) rotateZ(65deg);
         opacity: 50%;
     }
-    100% {
+    33% {
         transform: translateY(0vw) translateX(70vw) rotateZ(-95deg);
         opacity: 0;
+        visibility: hidden;
     }
 }
 
 @keyframes floatingHexagonaAnim {
     0% {
+        visibility: visible;
         opacity: 0;
     }
-    25% {
+    8.25% {
         transform: translateY(30vw) translateX(20vw) rotateZ(15deg);
         opacity: 50%;
     }
-    50%{
+    16.5%{
         transform: translateY(20vw) translateX(15vw) rotateZ(-20deg);
         opacity: 100%;
     }
-    75%{
+    24.75%{
         transform: translateY(10vw) translateX(20vw) rotateZ(65deg);
         opacity: 50%;
     }
-    100% {
+    33% {
         transform: translateY(0vw) translateX(10vw) rotateZ(-95deg);
         opacity: 0;
+        visibility: hidden;
     }
 }
 
 @keyframes floatingHexagonaAnimBis {
     0% {
         opacity: 0;
+        visibility: visible;
     }
-    25% {
+    8.25% {
         transform: translateY(30vw) translateX(80vw) rotateZ(15deg);
         opacity: 50%;
     }
-    50%{
+    16.5%{
         transform: translateY(20vw) translateX(70vw) rotateZ(-20deg);
         opacity: 100%;
     }
-    75%{
+    24.75%{
         transform: translateY(10vw) translateX(70vw) rotateZ(65deg);
         opacity: 50%;
     }
-    100% {
+    33% {
         transform: translateY(0vw) translateX(90vw) rotateZ(-95deg);
         opacity: 0;
+        visibility: hidden;
     }
 }
 
