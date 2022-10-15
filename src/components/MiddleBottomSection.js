@@ -8,13 +8,14 @@ import image5 from "./../images/events/event23.jpg";
 import image6 from "./../images/events/event31.jpg";
 import image7 from "./../images/events/event32.jpg";
 import image8 from "./../images/events/event33.jpg";
-import { ReactComponent as DNA } from "./../SVG/DNAKbira.svg";
+import { ReactComponent as DNA } from "./../SVG/DNAFull.svg";
 
 import EventSlideShow from "./EventSlideShow";
 
 const MiddleBottomSection = () => {
   return (
     <>
+      <DNA className="DNA" />
       <div className="middleBottomSection">
         <h1
           className={

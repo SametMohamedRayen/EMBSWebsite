@@ -51,7 +51,7 @@ a {
 .navElements {
     display: flex;
     gap: 14.85vw;
- /*   justify-content: space-between;*/
+    justify-content: space-between;
 }
 
 .navElements ul {
@@ -62,6 +62,7 @@ a {
     font-size: 1.85vw;
     padding-top: 1.9vw;
     padding-left: 0;
+    transform: translateX(1.8vw);
 }
 
 .navElements ul a {
@@ -98,7 +99,7 @@ a {
 }
 
 .socialsShape {
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     left: 0;
 }
@@ -396,7 +397,7 @@ a {
 }
 
 .floatingDNABis {
-    animation: floatingDNAAnimBis 15s infinite;
+    animation: floatingDNAAnimBis 30s infinite;
     animation-timing-function: linear;
     position: absolute;
     width:9%;
@@ -405,7 +406,7 @@ a {
 }
 
 .floatingBlo9 {
-    animation: floatingBlo9Anim 12.5s infinite;
+    animation: floatingBlo9Anim 30s infinite;
     animation-timing-function: linear;
     position: absolute;
     width:9%;
@@ -414,7 +415,7 @@ a {
 }
 
 .floatingBlo9Bis {
-    animation: floatingBlo9AnimBis 8s infinite;
+    animation: floatingBlo9AnimBis 50s infinite;
     animation-timing-function: linear;
     position: absolute;
     width:9%;
@@ -423,7 +424,7 @@ a {
 }
 
 .floatingHexagona {
-    animation: floatingHexagonaAnim 10s infinite;
+    animation: floatingHexagonaAnim 50s infinite;
     animation-timing-function: linear;
     position: absolute;
     width:9%;
@@ -805,7 +806,7 @@ a {
     position: absolute;
     display: block;
     height: auto;
-
+    filter: drop-shadow(0 1vw rgba(17, 40, 73, 0.5));
 }
 
 .cloudParent {
@@ -874,12 +875,13 @@ a {
     transform: translateY(35vw);
 }
 
-#DNARight {
-    width: 60%;
+.DNA {
     position: absolute;
-    margin-left: 42vw;
-    margin-top: -92.5vw;
-    z-index: -3;
+    width: 30%;
+    height: auto;
+    z-index: -1;
+    opacity: 50%;
+    transform: scale(3.5) translateX(9.5vw) translateY(12.5vw);
 }
 
 /* FOOTER */
