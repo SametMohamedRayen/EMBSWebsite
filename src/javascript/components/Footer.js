@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as FooterBg } from "./../SVG/Footer.svg";
+import { ReactComponent as FooterBg } from "../../assets/svg/Footer.svg";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="footerGrid">
         <div className="column">
           <img
-            src={require("./../images/Logos.png")}
+            src={require("../../assets/images/Logos.png")}
             alt="logos"
             className="footerLogos"
           />
@@ -66,13 +66,13 @@ const Footer = () => {
                 className="socialsFooter"
               ></FontAwesomeIcon>
             </a>
-            <a href="https://www.instagram.com/ieee_embs_enetcom_sbc/">
+            <a href="src/js/components/Footer">
               <FontAwesomeIcon
                 icon={["fab", "square-instagram"]}
                 className="socialsFooter"
               ></FontAwesomeIcon>
             </a>
-            <a href="https://www.linkedin.com/in/ieee-enet-com-student-branch-39167b175/?originalSubdomain=tn">
+            <a href="src/js/components/Footer?originalSubdomain=tn">
               <FontAwesomeIcon
                 icon={["fab", "linkedin"]}
                 className="socialsFooter"

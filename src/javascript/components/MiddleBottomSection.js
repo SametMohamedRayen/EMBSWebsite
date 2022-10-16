@@ -1,14 +1,14 @@
 import React from "react";
-import image0 from "./../images/events/event11.jpg";
-import image1 from "./../images/events/event12.jpg";
-import image2 from "./../images/events/event13.jpg";
-import image3 from "./../images/events/event21.jpg";
-import image4 from "./../images/events/event22.jpg";
-import image5 from "./../images/events/event23.jpg";
-import image6 from "./../images/events/event31.jpg";
-import image7 from "./../images/events/event32.jpg";
-import image8 from "./../images/events/event33.jpg";
-import { ReactComponent as DNA } from "./../SVG/DNAFull.svg";
+import image0 from "../../assets/images/events/event11.jpg";
+import image1 from "../../assets/images/events/event12.jpg";
+import image2 from "../../assets/images/events/event13.jpg";
+import image3 from "../../assets/images/events/event21.jpg";
+import image4 from "../../assets/images/events/event22.jpg";
+import image5 from "../../assets/images/events/event23.jpg";
+import image6 from "../../assets/images/events/event31.jpg";
+import image7 from "../../assets/images/events/event32.jpg";
+import image8 from "../../assets/images/events/event33.jpg";
+import { ReactComponent as DNA } from "../../assets/svg/DNAFull.svg";
 
 import EventSlideShow from "./EventSlideShow";
 

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { ReactComponent as Section1 } from "../SVG/Section1.svg";
-import { ReactComponent as GIFClippingPathShape } from "../SVG/GIFClippingPathShape.svg";
-import { ReactComponent as DNAParticle } from "../SVG/DNAParticle.svg";
-import { ReactComponent as Hexagona } from "../SVG/Hexagona.svg";
-import { ReactComponent as Blo9 } from "../SVG/Blo9.svg";
-import { ReactComponent as DNAParticleDark } from "../SVG/DNAParticleDark.svg";
-import { ReactComponent as HexagonaDark } from "../SVG/HexagonaDark.svg";
-import { ReactComponent as Blo9Dark } from "../SVG/Blo9Dark.svg";
+import { ReactComponent as Section1 } from "../../assets/svg/Section1.svg";
+import { ReactComponent as GIFClippingPathShape } from "../../assets/svg/GIFClippingPathShape.svg";
+import { ReactComponent as DNAParticle } from "../../assets/svg/DNAParticle.svg";
+import { ReactComponent as Hexagona } from "../../assets/svg/Hexagona.svg";
+import { ReactComponent as Blo9 } from "../../assets/svg/Blo9.svg";
+import { ReactComponent as DNAParticleDark } from "../../assets/svg/DNAParticleDark.svg";
+import { ReactComponent as HexagonaDark } from "../../assets/svg/HexagonaDark.svg";
+import { ReactComponent as Blo9Dark } from "../../assets/svg/Blo9Dark.svg";
 
 const TopSection = () => {
   const text1 =
@@ -68,7 +68,10 @@ const TopSection = () => {
         muted
         loop
       >
-        <source src={require("../videos/Section1Video.mp4")} type="video/mp4" />
+        <source
+          src={require("../../assets/videos/Section1Video.mp4")}
+          type="video/mp4"
+        />
       </video>
       <svg className="clippingPathSvg">
         <clipPath id="GIFClippingPath" clipPathUnits="objectBoundingBox">

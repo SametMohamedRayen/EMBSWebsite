@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ReactComponent as NavbarShape } from "../SVG/NavbarShape.svg";
+import { ReactComponent as NavbarShape } from "../../assets/svg/NavbarShape.svg";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -30,14 +30,14 @@ const Navbar = () => {
       <nav className={navbar ? "navScrolled" : "nav"}>
         <div className="navElements">
           <img
-            src={require("../images/LogoEMBS.png")}
+            src={require("../../assets/images/LogoEMBS.png")}
             alt="LOGO"
             className={navbar ? "logoScrolled" : "logo"}
           />
           <ul>
             <li>
               <div className="navLink">
-                <a href="src/components/Navbar" className="navLinkItem">
+                <a href="src/js/components/Navbar" className="navLinkItem">
                   Home
                 </a>
                 <svg
@@ -169,7 +169,7 @@ const Navbar = () => {
             </li>
             <li>
               <div className="navLink">
-                <a href="src/components/Navbar" className="navLinkItem">
+                <a href="src/js/components/Navbar" className="navLinkItem">
                   About
                 </a>
                 <svg
@@ -301,7 +301,7 @@ const Navbar = () => {
             </li>
             <li>
               <div className="navLink">
-                <a href="src/components/Navbar" className="navLinkItem">
+                <a href="src/js/components/Navbar" className="navLinkItem">
                   Activities
                 </a>
                 <svg
@@ -433,7 +433,7 @@ const Navbar = () => {
             </li>
             <li>
               <div className="navLink">
-                <a href="src/components/Navbar" className="navLinkItem">
+                <a href="src/js/components/Navbar" className="navLinkItem">
                   Get in Touch
                 </a>
                 <svg
@@ -1162,7 +1162,7 @@ const Navbar = () => {
               />
             </a>
             <a
-              href="https://www.instagram.com/ieee_embs_enetcom_sbc/"
+              href="src/js/components/Navbar"
               className="social"
               id="ig"
               onMouseEnter={() => setIsOn(2)}
@@ -1174,7 +1174,7 @@ const Navbar = () => {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/ieee-enet-com-student-branch-39167b175/?originalSubdomain=tn"
+              href="src/js/components/Navbar?originalSubdomain=tn"
               className="social"
               id="li"
               onMouseEnter={() => setIsOn(3)}

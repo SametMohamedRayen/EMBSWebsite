@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import StaffElement from "./StaffElement";
-import rubyCrown from "../images/crowns.png";
-import basicCrown from "../images/crown.png";
-import moneyBag from "../images/money-bag.png";
-import glasses from "../images/glasses.png";
-import bookAndQuill from "../images/writing.png";
+import rubyCrown from "../../assets/images/crowns.png";
+import basicCrown from "../../assets/images/crown.png";
+import moneyBag from "../../assets/images/money-bag.png";
+import glasses from "../../assets/images/glasses.png";
+import bookAndQuill from "../../assets/images/writing.png";
 import TextSlider from "./TextSlider";
 
 const MiddleTopSection = () => {
@@ -29,7 +29,7 @@ const MiddleTopSection = () => {
   return (
     <>
       <img
-        src={require("../images/MiddleTopSectionBg.png")}
+        src={require("../../assets/images/MiddleTopSectionBg.png")}
         className="bgMiddleTopSection"
         alt="background"
       />

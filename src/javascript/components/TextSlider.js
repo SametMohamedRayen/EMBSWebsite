@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ReactComponent as Cloud } from "../SVG/Cloud.svg";
+import { ReactComponent as Cloud } from "../../assets/svg/Cloud.svg";
 
 const TextSlider = (props) => {
   const { texts } = props;

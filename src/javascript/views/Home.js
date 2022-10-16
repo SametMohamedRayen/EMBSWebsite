@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./Navbar";
-import TopSection from "./TopSection";
-import MiddleTopSection from "./MiddleTopSection";
-import MiddleBottomSection from "./MiddleBottomSection";
-import Footer from "./Footer";
+import Navbar from "../components/Navbar";
+import TopSection from "../components/TopSection";
+import MiddleTopSection from "../components/MiddleTopSection";
+import MiddleBottomSection from "../components/MiddleBottomSection";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (

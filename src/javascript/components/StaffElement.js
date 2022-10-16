@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as StaffFrame } from "../SVG/StaffFrame.svg";
+import { ReactComponent as StaffFrame } from "../../assets/svg/StaffFrame.svg";
 import GradientText from "./GradientText";
 
 const StaffElement = (props) => {
