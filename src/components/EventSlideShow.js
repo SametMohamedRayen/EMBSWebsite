@@ -12,7 +12,8 @@ const EventSlideShow = (props) => {
     image7,
     image8,
   } = props;
-  const [index, setIndex] = useState(0);
+
+  const [index, setIndex] = useState(-1);
   const [isHovered, setIsHovered] = useState(-1);
 
   useEffect(() => {
@@ -20,10 +21,8 @@ const EventSlideShow = (props) => {
       setTimeout(() => {
         setIndex(index === 2 ? 0 : index + 1);
       }, 3000);
-    } else {
-      setIndex(0);
     }
-  }, [index, isHovered]);
+  }, [index]);
 
   return (
     <svg
@@ -35,8 +34,15 @@ const EventSlideShow = (props) => {
       <g id="Hexagons" className="positionLower">
         <g
           id="LeftHex"
-          onMouseEnter={() => setIsHovered(0)}
-          onMouseLeave={() => setIsHovered(-1)}
+          onMouseEnter={() => {
+            console.log("entered 1");
+            setIndex(0);
+            setIsHovered(0);
+          }}
+          onMouseLeave={() => {
+            console.log("left 1");
+            setIsHovered(-1);
+          }}
           className={
             isHovered === 0
               ? "highlightEventLeft"
@@ -110,8 +116,15 @@ const EventSlideShow = (props) => {
         </g>
         <g
           id="MiddleHex"
-          onMouseEnter={() => setIsHovered(1)}
-          onMouseLeave={() => setIsHovered(-1)}
+          onMouseEnter={() => {
+            console.log("entered 2");
+            setIndex(0);
+            setIsHovered(1);
+          }}
+          onMouseLeave={() => {
+            console.log("left 2");
+            setIsHovered(-1);
+          }}
           className={
             isHovered === 1
               ? "highlightEventCenter"
@@ -215,8 +228,15 @@ const EventSlideShow = (props) => {
         </g>
         <g
           id="RightHex"
-          onMouseEnter={() => setIsHovered(2)}
-          onMouseLeave={() => setIsHovered(-1)}
+          onMouseEnter={() => {
+            console.log("entered 3");
+            setIndex(0);
+            setIsHovered(2);
+          }}
+          onMouseLeave={() => {
+            console.log("left 3");
+            setIsHovered(-1);
+          }}
           className={
             isHovered === 2
               ? "highlightEventRight"

@@ -1162,7 +1162,7 @@ const Navbar = () => {
               />
             </a>
             <a
-              href="src/components/Navbar"
+              href="https://www.instagram.com/ieee_embs_enetcom_sbc/"
               className="social"
               id="ig"
               onMouseEnter={() => setIsOn(2)}
@@ -1174,7 +1174,7 @@ const Navbar = () => {
               />
             </a>
             <a
-              href="src/components/Navbar?originalSubdomain=tn"
+              href="https://www.linkedin.com/in/ieee-enet-com-student-branch-39167b175/?originalSubdomain=tn"
               className="social"
               id="li"
               onMouseEnter={() => setIsOn(3)}

@@ -60,18 +60,24 @@ const Footer = () => {
             </span>
           </span>
           <div className="socialsRow">
-            <FontAwesomeIcon
-              icon={["fab", "facebook"]}
-              className="socialsFooter"
-            ></FontAwesomeIcon>
-            <FontAwesomeIcon
-              icon={["fab", "square-instagram"]}
-              className="socialsFooter"
-            ></FontAwesomeIcon>
-            <FontAwesomeIcon
-              icon={["fab", "linkedin"]}
-              className="socialsFooter"
-            ></FontAwesomeIcon>
+            <a href="https://www.facebook.com/EMBS.ENETCOM">
+              <FontAwesomeIcon
+                icon={["fab", "facebook"]}
+                className="socialsFooter"
+              ></FontAwesomeIcon>
+            </a>
+            <a href="https://www.instagram.com/ieee_embs_enetcom_sbc/">
+              <FontAwesomeIcon
+                icon={["fab", "square-instagram"]}
+                className="socialsFooter"
+              ></FontAwesomeIcon>
+            </a>
+            <a href="https://www.linkedin.com/in/ieee-enet-com-student-branch-39167b175/?originalSubdomain=tn">
+              <FontAwesomeIcon
+                icon={["fab", "linkedin"]}
+                className="socialsFooter"
+              ></FontAwesomeIcon>
+            </a>
           </div>
         </div>
       </div>
