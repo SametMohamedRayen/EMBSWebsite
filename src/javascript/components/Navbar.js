@@ -3,12 +3,14 @@ import { ReactComponent as NavbarShape } from "../../assets/svg/NavbarShape.svg"
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 library.add(fab);
 
 const Navbar = () => {
   const [isOn, setIsOn] = useState(0);
   const [navbar, setNavbar] = useState(false);
+  const [activeView, setActiveView] = useState("Home");
 
   const changeBackground = () => {
     if (window.scrollY >= 66) {
@@ -37,9 +39,16 @@ const Navbar = () => {
           <ul>
             <li>
               <div className="navLink">
-                <a href="src/js/components/Navbar" className="navLinkItem">
+                <Link
+                  to="/"
+                  className={
+                    "navLinkItem" +
+                    (activeView === "Home" ? " text-lightBlue" : "")
+                  }
+                  onClick={() => setActiveView("Home")}
+                >
                   Home
-                </a>
+                </Link>
                 <svg
                   className="loadHex"
                   width="141"
@@ -169,9 +178,16 @@ const Navbar = () => {
             </li>
             <li>
               <div className="navLink">
-                <a href="src/js/components/Navbar" className="navLinkItem">
+                <Link
+                  to="/about"
+                  className={
+                    "navLinkItem" +
+                    (activeView === "About" ? " text-lightBlue" : "")
+                  }
+                  onClick={() => setActiveView("About")}
+                >
                   About
-                </a>
+                </Link>
                 <svg
                   className="loadHex"
                   width="141"
@@ -301,9 +317,16 @@ const Navbar = () => {
             </li>
             <li>
               <div className="navLink">
-                <a href="src/js/components/Navbar" className="navLinkItem">
+                <Link
+                  to="/activities"
+                  className={
+                    "navLinkItem" +
+                    (activeView === "Activities" ? " text-lightBlue" : "")
+                  }
+                  onClick={() => setActiveView("Activities")}
+                >
                   Activities
-                </a>
+                </Link>
                 <svg
                   className="loadHex"
                   width="141"
@@ -433,9 +456,16 @@ const Navbar = () => {
             </li>
             <li>
               <div className="navLink">
-                <a href="src/js/components/Navbar" className="navLinkItem">
+                <Link
+                  to="/get-in-touch"
+                  className={
+                    "navLinkItem" +
+                    (activeView === "GetInTouch" ? " text-lightBlue" : "")
+                  }
+                  onClick={() => setActiveView("GetInTouch")}
+                >
                   Get in Touch
-                </a>
+                </Link>
                 <svg
                   className="loadHex"
                   width="141"

@@ -1098,3 +1098,7 @@ a {
 .pause {
     height: 1.5vw;
 }
+
+.text-lightBlue {
+    color: #0CC5CB !important;
+}
