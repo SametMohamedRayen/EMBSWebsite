@@ -37,6 +37,7 @@ a {
 }
 
 .navbar {
+    float: top;
     position: fixed;
     width: 100%;
     height: auto;
@@ -305,7 +306,7 @@ a {
     font-weight: bold;
 }
 
-.homeSections {
+.sections {
 }
 
 .topSection {
@@ -945,6 +946,9 @@ a {
     float: bottom;
     position: relative;
     height: fit-content;
+    margin: 0;
+    padding:0;
+    display: block;
 }
 
 .footerGrid {
@@ -1001,6 +1005,33 @@ a {
     width: 3vw;
     height: auto;
     color: white;
+}
+
+
+/* ABOUT */
+
+.aboutEmbsTitle {
+    align-content: center;
+    text-align: center;
+    margin-top: 12.5vw;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.aboutEmbsLogo {
+    width: 20%;
+    height: auto;
+}
+
+.centerContent {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutTitleFrame {
+    width: 46vw;
+    height: auto;
+    z-index: -1;
 }
 
 
@@ -1095,10 +1126,42 @@ a {
     font-size: 2vw;
 }
 
+.font-size-4 {
+    font-size: 4vw;
+}
+
 .pause {
     height: 1.5vw;
 }
 
 .text-lightBlue {
     color: #0CC5CB !important;
+}
+
+.letter-space-50{
+    letter-spacing: 0.5vw;
+}
+
+.relative {
+    position: relative;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.block {
+    display: block;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.width-half {
+    width: 50%;
+}
+
+.letter-space-125 {
+    letter-spacing: 0.125vw;
 }

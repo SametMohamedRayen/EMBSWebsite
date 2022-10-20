@@ -5,7 +5,7 @@ import MiddleBottomSection from "../components/MiddleBottomSection";
 
 const Home = () => {
   return (
-    <div className="homeSections">
+    <div className="sections">
       <TopSection />
       <MiddleTopSection />
       <MiddleBottomSection />
