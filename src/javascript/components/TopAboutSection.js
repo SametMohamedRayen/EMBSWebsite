@@ -3,17 +3,19 @@ import { ReactComponent as AboutTitleFrame } from "../../assets/svg/AboutTitleFr
 
 const TopAboutSection = () => {
   return (
-    <div className="relative">
+    <div className="relative height-50">
       <div className="absolute width-full">
         <div className="aboutEmbsTitle width-full relative">
           <AboutTitleFrame className="aboutTitleFrame" />
-          <h1 className="font-indigo-regular font-color-blue font-size-4 letter-space-50 margin-0">
-            Who Are
-          </h1>
-          <img
-            src={require("../../assets/images/NamelessEMBSLogo.png")}
-            className="aboutEmbsLogo"
-          />
+          <div className="whoAreEmbs">
+            <h1 className="font-indigo-regular font-color-blue font-size-4 letter-space-50 margin-0">
+              Who Are
+            </h1>
+            <img
+              src={require("../../assets/images/NamelessEMBSLogo.png")}
+              className="aboutEmbsLogo"
+            />
+          </div>
         </div>
         <div className="centerContent">
           <p className="centerText width-half font-albori letter-space-125 font-size-140">

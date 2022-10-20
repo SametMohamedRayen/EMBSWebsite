@@ -1023,15 +1023,34 @@ a {
     height: auto;
 }
 
+.whoAreEmbs {
+    padding-top: 3.75vw;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
 .centerContent {
     display: flex;
     justify-content: center;
 }
 
+.height-50 {
+    height: 50vw;
+}
+
 .aboutTitleFrame {
-    width: 46vw;
+    width: 50vw;
     height: auto;
     z-index: -1;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin: auto;
+    display: block;
+}
+
+.aboutFrame {
+    width: 25%;
+    height: auto;
 }
 
 
