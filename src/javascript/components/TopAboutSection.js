@@ -18,7 +18,7 @@ const TopAboutSection = () => {
           </div>
         </div>
         <div className="centerContent">
-          <p className="centerText width-half font-albori letter-space-125 font-size-140">
+          <p className="centerText width-half font-albori letter-space-125 font-size-140 font-color-darkBlue">
             IEEE Engineering in Medicine and Biology Society (EMBS) is the
             world’s largest international society of biomedical engineers. The
             organization’s 12,000 members reside in some 97 countries around the

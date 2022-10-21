@@ -962,7 +962,7 @@ a {
     width: auto;
 }
 
-.column {
+.columnLeft {
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -1049,10 +1049,21 @@ a {
 }
 
 .aboutFrame {
-    width: 25%;
+    width: 75%;
     height: auto;
 }
 
+#image0_475_47 {
+    transform: translateX(6.5vw);
+}
+
+.aboutContainer {
+    margin: 0 7vw;
+}
+
+.aboutWriting {
+    margin: 2vw 2vw;
+}
 
 /* UTILITIES */
 
@@ -1183,4 +1194,20 @@ a {
 
 .letter-space-125 {
     letter-spacing: 0.125vw;
+}
+
+.font-color-darkBlue {
+    color: #112849;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }

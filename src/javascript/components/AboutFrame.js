@@ -261,7 +261,7 @@ const AboutFrame = (props) => {
         </linearGradient>
         <image
           id="image0_475_47"
-          data-name="9atous Yebki 1.jpg"
+          data-name="image0_475_47"
           width={(480 * imgSizeFactor).toString()}
           height={(270 * imgSizeFactor).toString()}
           xlinkHref={img}

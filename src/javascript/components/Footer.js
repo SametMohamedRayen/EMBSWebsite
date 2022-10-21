@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="footer">
       <FooterBg className="footerBg" />
       <div className="footerGrid">
-        <div className="column">
+        <div className="columnLeft">
           <img
             src={require("../../assets/images/Logos.png")}
             alt="logos"
