@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
 const AboutFrame = (props) => {
   const { img, imgSizeFactor } = props;
+  const [isTurned, setIsTurned] = useState(false);
   return (
     <svg viewBox="0 0 1459 1851" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g id="AboutFrame">
+      <g
+        id="AboutFrame v1.0"
+        onMouseEnter={() => setIsTurned(true)}
+        onMouseLeave={() => setIsTurned(false)}
+      >
         <g id="Group 15">
           <g id="Group 14">
-            <g id="Group 9">
+            <g
+              id="Bottom"
+              className={isTurned ? "turnAnimation animation-delay-half" : ""}
+            >
               <path
                 id="Polygon 43"
                 d="M882.563 1839.75L862.499 1774.42C841.992 1707.64 805.634 1646.82 756.528 1597.14L722.782 1563L689.036 1597.14C639.929 1646.82 603.572 1707.64 583.064 1774.42L563 1839.75"
@@ -43,7 +51,10 @@ const AboutFrame = (props) => {
                 strokeWidth="21"
               />
             </g>
-            <g id="Group 10">
+            <g
+              id="Top"
+              className={isTurned ? "turnAnimation animation-delay-half" : ""}
+            >
               <path
                 id="Polygon 42"
                 d="M585 11L605.064 76.3331C625.572 143.108 661.93 203.931 711.036 253.61L744.782 287.75L778.528 253.61C827.634 203.931 863.992 143.108 884.499 76.3331L904.563 11"
@@ -79,7 +90,7 @@ const AboutFrame = (props) => {
                 strokeWidth="17"
               />
             </g>
-            <g id="Group 13">
+            <g id="Middle" className={isTurned ? "turnAnimation" : ""}>
               <line
                 id="Line 74"
                 x1="511.89"
@@ -98,12 +109,9 @@ const AboutFrame = (props) => {
                 stroke="url(#paint1_linear_475_47)"
                 strokeWidth="20"
               />
-              <line
+              <path
                 id="Line 76"
-                x1="498.951"
-                y1="413.192"
-                x2="1071.95"
-                y2="527.192"
+                d="M498.951 413.192L1068 527.5"
                 stroke="url(#paint2_linear_475_47)"
                 strokeWidth="20"
               />
@@ -119,10 +127,8 @@ const AboutFrame = (props) => {
               <g id="Group 12">
                 <path
                   id="Vector 6"
-                  d="M874 298L874.939 299.52C910.865 357.67 953.364 411.493 1001.6 459.927L1033.78 492.249C1270.01 729.465 1273.11 1112.06 1040.75 1353.07L1004.62 1390.53C954.391 1442.63 910.542 1500.53 874 1563V1563"
-                  stroke="url(#paint4_linear_475_47)"
-                  strokeWidth="23"
-                  strokeLinecap="round"
+                  d="M883.784 291.956C880.445 286.552 873.359 284.878 867.956 288.217C862.552 291.555 860.878 298.641 864.217 304.044L883.784 291.956ZM1001.6 459.927L1009.74 451.813L1001.6 459.927ZM1033.78 492.249L1041.93 484.134L1033.78 492.249ZM1012.9 1398.52L1049.03 1361.05L1032.47 1345.08L996.344 1382.55L1012.9 1398.52ZM1041.93 484.134L1009.74 451.813L993.447 468.042L1025.63 500.363L1041.93 484.134ZM884.722 293.475L883.784 291.956L864.217 304.044L865.156 305.564L884.722 293.475ZM1009.74 451.813C962.135 404.004 920.185 350.875 884.722 293.475L865.156 305.564C901.546 364.465 944.593 418.983 993.447 468.042L1009.74 451.813ZM1049.03 1361.05C1285.73 1115.53 1282.58 725.786 1041.93 484.134L1025.63 500.363C1257.44 733.144 1260.48 1108.58 1032.47 1345.08L1049.03 1361.05ZM996.344 1382.55C945.479 1435.31 901.076 1493.94 864.074 1557.19L883.926 1568.81C920.007 1507.13 963.304 1449.96 1012.9 1398.52L996.344 1382.55Z"
+                  fill="url(#paint4_linear_475_47)"
                 />
                 <circle
                   id="Ellipse 46"
@@ -136,10 +142,8 @@ const AboutFrame = (props) => {
               <g id="Group 11">
                 <path
                   id="Vector 5"
-                  d="M585 1549L584.061 1547.48C548.135 1489.33 505.636 1435.51 457.404 1387.07L425.217 1354.75C188.989 1117.53 185.894 734.942 418.254 493.935L454.377 456.467C504.609 404.366 548.458 346.469 585 284V284"
-                  stroke="url(#paint5_linear_475_47)"
-                  strokeWidth="23"
-                  strokeLinecap="round"
+                  d="M575.217 1555.04C578.555 1560.45 585.641 1562.12 591.044 1558.78C596.448 1555.45 598.122 1548.36 594.783 1542.96L575.217 1555.04ZM457.404 1387.07L449.255 1395.19L457.404 1387.07ZM425.217 1354.75L417.069 1362.87L425.217 1354.75ZM446.098 448.485L409.975 485.953L426.533 501.916L462.656 464.448L446.098 448.485ZM417.069 1362.87L449.255 1395.19L465.553 1378.96L433.366 1346.64L417.069 1362.87ZM574.278 1553.52L575.217 1555.04L594.783 1542.96L593.845 1541.44L574.278 1553.52ZM449.255 1395.19C496.865 1443 538.815 1496.12 574.278 1553.52L593.845 1541.44C557.454 1482.53 514.407 1428.02 465.553 1378.96L449.255 1395.19ZM409.975 485.953C173.27 731.467 176.423 1121.21 417.069 1362.87L433.366 1346.64C201.555 1113.86 198.518 738.417 426.533 501.916L409.975 485.953ZM462.656 464.448C513.521 411.69 557.924 353.064 594.926 289.807L575.074 278.193C538.993 339.875 495.696 397.041 446.098 448.485L462.656 464.448Z"
+                  fill="url(#paint5_linear_475_47)"
                 />
                 <circle
                   id="Ellipse 47"
@@ -195,10 +199,10 @@ const AboutFrame = (props) => {
         </pattern>
         <linearGradient
           id="paint0_linear_475_47"
-          x1="791.999"
+          x1="792.002"
           y1="1436.5"
-          x2="743.998"
-          y2="1093.5"
+          x2="738.503"
+          y2="991.5"
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#0CC5CB" />
@@ -206,10 +210,10 @@ const AboutFrame = (props) => {
         </linearGradient>
         <linearGradient
           id="paint1_linear_475_47"
-          x1="703.006"
+          x1="703"
           y1="1407"
-          x2="628.011"
-          y2="847.998"
+          x2="617.495"
+          y2="772.501"
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#0CC5CB" />
@@ -217,10 +221,10 @@ const AboutFrame = (props) => {
         </linearGradient>
         <linearGradient
           id="paint2_linear_475_47"
-          x1="808.489"
-          y1="423"
-          x2="741.505"
-          y2="892.501"
+          x1="806.492"
+          y1="398.499"
+          x2="741.498"
+          y2="892.5"
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#24549B" />
@@ -228,10 +232,10 @@ const AboutFrame = (props) => {
         </linearGradient>
         <linearGradient
           id="paint3_linear_475_47"
-          x1="701.502"
-          y1="523"
-          x2="680.501"
-          y2="911"
+          x1="706.508"
+          y1="506"
+          x2="680.511"
+          y2="911.001"
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#24549B" />
@@ -261,7 +265,7 @@ const AboutFrame = (props) => {
         </linearGradient>
         <image
           id="image0_475_47"
-          data-name="image0_475_47"
+          data-name="9atous Yebki 1.jpg"
           width={(480 * imgSizeFactor).toString()}
           height={(270 * imgSizeFactor).toString()}
           xlinkHref={img}

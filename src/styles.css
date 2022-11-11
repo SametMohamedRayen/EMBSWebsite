@@ -1049,7 +1049,7 @@ a {
 }
 
 .aboutFrame {
-    width: 75%;
+    width: 150%;
     height: auto;
 }
 
@@ -1058,11 +1058,34 @@ a {
 }
 
 .aboutContainer {
-    margin: 0 7vw;
+    margin: 20vw 7vw 0 7vw;
 }
 
 .aboutWriting {
-    margin: 2vw 2vw;
+    margin: 7.5vw 2vw;
+}
+
+.aboutBg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.turnAnimation {
+    animation: turnAnim 1s 1;
+    transform-origin: center;
+}
+
+@keyframes turnAnim {
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
 }
 
 /* UTILITIES */
@@ -1210,4 +1233,12 @@ a {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+
+.margin-btm-15 {
+    margin-bottom: 5vw;
+}
+
+.animation-delay-half {
+    animation-delay: 0.5s;
 }

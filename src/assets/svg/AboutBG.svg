@@ -1,0 +1,11 @@
+<svg width="1920" height="2387" viewBox="0 0 1920 2387" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="AboutBG">
+<path id="Vector 8" opacity="0.2" d="M0 2386.82V268.5C564.485 -64.5366 1261.43 -80.4777 1840.56 226.402L1920 268.5V2386.82H0Z" fill="url(#paint0_linear_490_3)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_490_3" x1="960" y1="-109" x2="960" y2="2387" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0CC5CB"/>
+<stop offset="1" stop-color="#24549B"/>
+</linearGradient>
+</defs>
+</svg>
