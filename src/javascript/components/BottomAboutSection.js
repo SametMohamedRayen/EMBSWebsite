@@ -1,9 +1,6 @@
 import React from "react";
 import { ReactComponent as AboutBg } from "../../assets/svg/AboutBG.svg";
 import AboutRow from "./AboutRow";
-import IEEEENETECOMLogo from "./../../assets/images/IEEEENETCOMLogo.png";
-import IEEETunisiaSectionLogo from "./../../assets/images/IEEETunisiaSection.png";
-import IEEELogo from "./../../assets/images/IEEELogo.png";
 import RoundButton from "./RoundButton";
 
 const BottomAboutSection = () => {
@@ -23,7 +20,7 @@ const BottomAboutSection = () => {
             technology standards,and professional and educational activities.
             IEEE is the trusted “voice” for engineering, computing, and
             technology information around the globe."
-          image={IEEELogo}
+          image="0"
         />
         <AboutRow
           direction="right"
@@ -37,7 +34,7 @@ const BottomAboutSection = () => {
                 latest advanced researchs to Tunisia. These objectives can be
                 achieved through various activities including seminars,
                 lectures, schools, conferences, and other events."
-          image={IEEETunisiaSectionLogo}
+          image="1"
         />
         <AboutRow
           direction="left"
@@ -50,7 +47,7 @@ const BottomAboutSection = () => {
             technology standards,and professional and educational activities.
             IEEE is the trusted “voice” for engineering, computing, and
             technology information around the globe."
-          image={IEEEENETECOMLogo}
+          image="2"
         />
       </div>
     </>

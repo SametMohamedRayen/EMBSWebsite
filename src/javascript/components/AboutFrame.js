@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import IEEEENETCOM from "./../../assets/images/IEEEENETCOMLogo.png";
+import IEEE from "./../../assets/images/IEEELogo.png";
+import IEEETunisiaSection from "./../../assets/images/IEEETunisiaSection.png";
 
 const AboutFrame = (props) => {
   const { img, imgSizeFactor } = props;
@@ -174,12 +177,12 @@ const AboutFrame = (props) => {
             </mask>
             <g mask="url(#mask0_475_47)">
               <rect
-                id="9atous Yebki 1 1"
+                id="imageContainer"
                 x="27"
                 y="630"
                 width="1195"
                 height="672"
-                fill="url(#pattern0)"
+                fill={"url(#pattern" + img + ")"}
               />
             </g>
           </g>
@@ -194,6 +197,28 @@ const AboutFrame = (props) => {
         >
           <use
             xlinkHref="#image0_475_47"
+            transform="scale(0.00208333 0.00370474)"
+          />
+        </pattern>
+        <pattern
+          id="pattern1"
+          patternContentUnits="objectBoundingBox"
+          width="1"
+          height="1"
+        >
+          <use
+            xlinkHref="#image1_475_47"
+            transform="scale(0.00208333 0.00370474)"
+          />
+        </pattern>
+        <pattern
+          id="pattern2"
+          patternContentUnits="objectBoundingBox"
+          width="1"
+          height="1"
+        >
+          <use
+            xlinkHref="#image2_475_47"
             transform="scale(0.00208333 0.00370474)"
           />
         </pattern>
@@ -265,10 +290,24 @@ const AboutFrame = (props) => {
         </linearGradient>
         <image
           id="image0_475_47"
-          data-name="9atous Yebki 1.jpg"
+          data-name="I"
           width={(480 * imgSizeFactor).toString()}
           height={(270 * imgSizeFactor).toString()}
-          xlinkHref={img}
+          xlinkHref={IEEE}
+        />
+        <image
+          id="image1_475_47"
+          data-name="ITS"
+          width={(725 * imgSizeFactor).toString()}
+          height={(300 * imgSizeFactor).toString()}
+          xlinkHref={IEEETunisiaSection}
+        />
+        <image
+          id="image2_475_47"
+          data-name="IE"
+          width={(400 * imgSizeFactor).toString()}
+          height={(350 * imgSizeFactor).toString()}
+          xlinkHref={IEEEENETCOM}
         />
       </defs>
     </svg>
