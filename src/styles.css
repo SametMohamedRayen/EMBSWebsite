@@ -1199,6 +1199,60 @@ a {
 
 }
 
+
+/* GET IN TOUCH */
+
+.customInput {
+    vertical-align: middle;
+    margin-left: -18.75vw;
+    margin-top: -13vw;
+    height: 4.5vw;
+    width: 22.5vw;
+    border-radius: 2vw;
+    border-width: 0.25vw;
+    border-color: #112849;
+    border-style: solid;
+    padding: 0 2vw;
+    box-sizing: border-box;
+    font-family: Lato,sans-serif;
+    font-size: 1.5vw;
+}
+
+.customInput:focus {
+    outline: none;
+}
+
+.inputContainer {
+    text-align: center;
+}
+
+.hexDecoration {
+    width: 15vw;
+    height: auto;
+    z-index: -1;
+}
+
+.hexAnimate {
+    opacity: 0;
+    animation: hexDecAnim 500ms 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hexDecAnim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.inputTest {
+    margin-top: 15vw;
+}
+
+
+
 /* UTILITIES */
 
 .fit-content {
@@ -1359,12 +1413,24 @@ a {
     margin-bottom: 5vw;
 }
 
+.animation-delay-quarter {
+    animation-delay: 250ms;
+}
+
+.animation-delay-3-quarters {
+    animation-delay: 750ms;
+}
+
 .animation-delay-half {
     animation-delay: 0.5s;
 }
 
 .animation-delay-full {
     animation-delay: 1s;
+}
+
+.animation-delay-3-halves {
+    animation-delay: 1.5s;
 }
 
 .padding-left-2 {
@@ -1407,3 +1473,24 @@ a {
 .margin-top-4 {
     margin-top: 4vw;
 }
+
+.margin-top-15 {
+    margin-top: 15vw;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.transition-duration-500 {
+    transition-duration: 500ms;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
