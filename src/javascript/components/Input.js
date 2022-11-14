@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { ReactComponent as HexInputDecoration } from "./../../assets/svg/HexagonInputDecoration.svg";
 
 const Input = (props) => {
-  const { type, placeholder } = props;
+  const { type, placeholder, width, height, options } = props;
+  const optionsArray = type === "select" ? options.split(",") : null;
   const [focused, setFocused] = useState(false);
   return (
     <div className="inputContainer">
@@ -310,13 +310,21 @@ const Input = (props) => {
         </defs>
       </svg>
 
-      <input
-        type={type}
-        placeholder={placeholder}
-        className="customInput"
-        onFocus={() => setFocused(true)}
-        onBlur={() => setFocused(false)}
-      ></input>
+      {type !== "select" ? (
+        <input
+          type={type}
+          placeholder={placeholder}
+          className="customInput"
+          onFocus={() => setFocused(true)}
+          onBlur={() => setFocused(false)}
+        ></input>
+      ) : (
+        <select className="customInput">
+          {optionsArray.map((op) => (
+            <option>{op}</option>
+          ))}
+        </select>
+      )}
     </div>
   );
 };

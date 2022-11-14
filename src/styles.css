@@ -1216,7 +1216,6 @@ a {
     box-sizing: border-box;
     font-family: Lato,sans-serif;
     font-size: 1.5vw;
-    caret: url("./assets/images/Cursor.png");
 }
 
 .customInput:focus {
@@ -1493,5 +1492,17 @@ a {
 
 .opacity-0 {
     opacity: 0;
+}
+
+.inline {
+    display: inline;
+}
+
+.gap-2 {
+    gap: 2vw;
+}
+
+.margin-left {
+    margin-left: 5vw;
 }
 
