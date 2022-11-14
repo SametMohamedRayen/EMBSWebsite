@@ -3,14 +3,14 @@ import { ReactComponent as NavbarShape } from "../../assets/svg/NavbarShape.svg"
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 library.add(fab);
 
 const Navbar = () => {
   const [isOn, setIsOn] = useState(0);
   const [navbar, setNavbar] = useState(false);
-  const [activeView, setActiveView] = useState("Home");
+  let location = useLocation();
 
   const changeBackground = () => {
     if (window.scrollY >= 66) {
@@ -43,9 +43,8 @@ const Navbar = () => {
                   to="/"
                   className={
                     "navLinkItem" +
-                    (activeView === "Home" ? " text-lightBlue" : "")
+                    (location.pathname === "/" ? " text-lightBlue" : "")
                   }
-                  onClick={() => setActiveView("Home")}
                 >
                   Home
                 </Link>
@@ -182,9 +181,8 @@ const Navbar = () => {
                   to="/about"
                   className={
                     "navLinkItem" +
-                    (activeView === "About" ? " text-lightBlue" : "")
+                    (location.pathname === "/about" ? " text-lightBlue" : "")
                   }
-                  onClick={() => setActiveView("About")}
                 >
                   About
                 </Link>
@@ -321,9 +319,10 @@ const Navbar = () => {
                   to="/activities"
                   className={
                     "navLinkItem" +
-                    (activeView === "Activities" ? " text-lightBlue" : "")
+                    (location.pathname === "/activities"
+                      ? " text-lightBlue"
+                      : "")
                   }
-                  onClick={() => setActiveView("Activities")}
                 >
                   Activities
                 </Link>
@@ -460,9 +459,10 @@ const Navbar = () => {
                   to="/get-in-touch"
                   className={
                     "navLinkItem" +
-                    (activeView === "GetInTouch" ? " text-lightBlue" : "")
+                    (location.pathname === "/get-in-touch"
+                      ? " text-lightBlue"
+                      : "")
                   }
-                  onClick={() => setActiveView("GetInTouch")}
                 >
                   Get in Touch
                 </Link>
