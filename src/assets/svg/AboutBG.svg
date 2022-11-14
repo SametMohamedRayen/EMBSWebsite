@@ -1,9 +1,9 @@
 <svg width="1920" height="2763" viewBox="0 0 1920 2763" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="AboutBG">
-<path id="Subtract" opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M2.33419e-05 268.5L0 2654L28.4269 2635.07C260.402 2480.62 555.312 2455.7 809.913 2569.05C1161.57 2725.6 1563.82 2722.09 1912.69 2559.41L1920 2556L1920 268.5L1840.56 226.402C1261.43 -80.4776 564.485 -64.5365 2.33419e-05 268.5Z" fill="url(#paint0_linear_490_3)"/>
+<path id="Subtract" opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M2.33419e-05 270.856L0 2677.84L28.9292 2658.4C260.336 2502.94 555.581 2477.87 809.883 2592.11C1161.28 2749.96 1564.09 2746.41 1912.66 2582.41L1920 2578.96L1920 270.856L1840.88 228.554C1262.22 -80.843 563.837 -64.7949 2.33419e-05 270.856Z" fill="url(#paint0_linear_490_3)"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear_490_3" x1="960" y1="-109" x2="960" y2="2387" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_490_3" x1="960" y1="-109.698" x2="960" y2="2408.38" gradientUnits="userSpaceOnUse">
 <stop stop-color="#0CC5CB"/>
 <stop offset="1" stop-color="#24549B"/>
 </linearGradient>

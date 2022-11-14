@@ -1041,13 +1041,22 @@ a {
 }
 
 .aboutTitleFrame {
-    width: 20vw;
+    width: 11vw;
     height: auto;
     z-index: -1;
     grid-column-start: 1;
     grid-row-start: 1;
     margin: auto;
     display: block;
+}
+
+.DNAFullAbout {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    opacity: 60%;
+    transform: rotateZ(-35deg) translateY(-10.5vw) translateX(10vw);
 }
 
 .aboutFrame {
@@ -1131,6 +1140,63 @@ a {
 .roundButton:hover {
     background-color: #112849;
     transition-duration: 1s;
+}
+
+#LeftPart {
+    animation: comingInAnimLeft 2s 1;
+    transform-origin: center;
+}
+
+#RightPart {
+    animation: comingInAnimRight 2s 1;
+    transform-origin: center;
+}
+
+#LeftBorder {
+    animation: wholeTurn 1s 1;
+    animation-delay: 1s;
+    transform-origin: center;
+}
+
+#RightBorder {
+    animation: wholeTurn 1s 1;
+    animation-delay: 1s;
+    transform-origin: center;
+}
+
+@keyframes comingInAnimLeft {
+    0% {
+        transform: translateX(-50vw);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+
+    }
+}
+
+@keyframes comingInAnimRight {
+    0% {
+        transform: translateX(50vw);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes wholeTurn {
+    0%{
+        transform: rotateX(0);
+    }
+    100% {
+        transform: rotateX(360deg);
+    }
+
 }
 
 /* UTILITIES */
@@ -1323,4 +1389,21 @@ a {
 
 .font-size-250 {
     font-size: 2.5vw;
+}
+
+.bg-radial-gradient-white {
+    background: radial-gradient(white 25%,transparent);
+}
+
+.width-third {
+    width: 33.3%;
+    height: auto;
+}
+
+.margin-top-neg-10 {
+    margin-top: -10vw;
+}
+
+.margin-top-4 {
+    margin-top: 4vw;
 }

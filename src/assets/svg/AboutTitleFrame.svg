@@ -1,28 +1,30 @@
-<svg width="7306" height="4191" viewBox="0 0 7306 4191" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1921" height="491" viewBox="0 0 1921 491" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="AboutTitleFrame">
-<g id="Group 8">
-<path id="Polygon 36" d="M2784 3721L1821 2925.25L1821 1333.75L2302.5 935.875L2784 538" stroke="url(#paint0_linear_468_26)" stroke-width="113"/>
-<path id="Polygon 37" d="M4413 538L5376 1333.75V2925.25L4894.5 3323.12L4413 3721" stroke="url(#paint1_linear_468_26)" stroke-width="113"/>
-<circle id="Ellipse 41" cx="4252.5" cy="429.5" r="222.5" stroke="#0CC5CB" stroke-width="70"/>
-<circle id="Ellipse 44" cx="3026.5" cy="343.5" r="308.5" stroke="#24549B" stroke-width="70"/>
-<circle id="Ellipse 43" cx="2940.5" cy="3833.5" r="224.5" stroke="#24549B" stroke-width="66"/>
-<circle id="Ellipse 42" cx="4220" cy="3881" r="277.5" stroke="#0CC5CB" stroke-width="65"/>
-<path id="Polygon 38" d="M144.158 1740.17L818.5 1350.84L1492.84 1740.17V2518.83L818.5 2908.16L144.158 2518.83V1740.17Z" stroke="#0CC5CB" stroke-width="69"/>
-<path id="Polygon 40" d="M261.139 1807.92L819 1485.84L1376.86 1807.92V2452.08L819 2774.16L261.139 2452.08V1807.92Z" stroke="#24549B" stroke-width="69"/>
-<path id="Polygon 41" d="M5820.14 1807.92L6378 1485.84L6935.86 1807.92V2452.08L6378 2774.16L5820.14 2452.08V1807.92Z" stroke="#0CC5CB" stroke-width="69"/>
-<path id="Polygon 39" d="M5704.16 1740.17L6378.5 1350.84L7052.84 1740.17V2518.83L6378.5 2908.16L5704.16 2518.83V1740.17Z" stroke="#24549B" stroke-width="69"/>
+<g id="LeftPart">
+<g id="LeftBorder">
+<path id="Polygon 36" d="M500.93 415.175L393.999 326.816L393.999 150.098L447.465 105.918L500.93 61.7387" stroke="url(#paint0_linear_468_26)" stroke-width="20"/>
+<circle id="Ellipse 44" cx="527.861" cy="40.1418" r="33.1418" stroke="#24549B" stroke-width="10"/>
+<circle id="Ellipse 43" cx="518.311" cy="427.667" r="23.5925" stroke="#24549B" stroke-width="10"/>
 </g>
-<line id="Line 87" x1="5360" y1="2105" x2="5712" y2="2105" stroke="#24549B" stroke-width="50"/>
-<line id="Line 88" x1="1461" y1="2105" x2="1813" y2="2105" stroke="#0CC5CB" stroke-width="50"/>
+<line id="Line 87" x1="396" y1="242" x2="8.74228e-07" y2="242" stroke="#0CC5CB" stroke-width="20"/>
+</g>
+<g id="RightPart">
+<g id="RightBorder">
+<path id="Polygon 37" d="M1412.02 44.9414L1525 138.303V325.027L1468.51 371.708L1412.02 418.389" stroke="url(#paint1_linear_468_26)" stroke-width="20"/>
+<circle id="Ellipse 41" cx="1393" cy="28" r="23" stroke="#0CC5CB" stroke-width="10"/>
+<circle id="Ellipse 42" cx="1389.37" cy="437.16" r="31.3709" stroke="#0CC5CB" stroke-width="10"/>
+</g>
+<line id="Line 88" x1="1921" y1="242" x2="1525" y2="242" stroke="#24549B" stroke-width="20"/>
+</g>
 </g>
 <defs>
-<linearGradient id="paint0_linear_468_26" x1="2784" y1="3618.5" x2="2807.5" y2="646.5" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_468_26" x1="500.93" y1="403.793" x2="503.539" y2="73.7864" gradientUnits="userSpaceOnUse">
 <stop offset="0.0121508" stop-color="#24549B"/>
 <stop offset="0.200414" stop-color="#0CC5CB"/>
 <stop offset="0.787647" stop-color="#0CC5CB"/>
 <stop offset="1" stop-color="#24549B"/>
 </linearGradient>
-<linearGradient id="paint1_linear_468_26" x1="4710.5" y1="642" x2="4707.5" y2="3635" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_468_26" x1="1446.92" y1="57.1433" x2="1446.57" y2="408.299" gradientUnits="userSpaceOnUse">
 <stop stop-color="#0CC5CB"/>
 <stop offset="0.268165" stop-color="#24549B"/>
 <stop offset="0.718805" stop-color="#24549B"/>
