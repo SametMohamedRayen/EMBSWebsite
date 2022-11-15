@@ -12,6 +12,17 @@ a {
     text-decoration: none;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
 /* SCROLLBAR */
 
 *::-webkit-scrollbar {
@@ -1227,6 +1238,7 @@ a {
 }
 
 .hexDecoration {
+    position: relative;
     width: 15vw;
     height: auto;
     z-index: -1;
@@ -1461,6 +1473,18 @@ a {
     width: 60vw;
 }
 
+.width-50 {
+    width: 50vw;
+}
+
+.width-48-44 {
+    width: 48.44vw;
+}
+
+.width-45-pc {
+    width: 45%;
+}
+
 .mirror {
     transform: rotateZ(180deg);
 }
@@ -1476,6 +1500,10 @@ a {
 .width-third {
     width: 33.3%;
     height: auto;
+}
+
+.margin-top-neg-6 {
+    margin-top: -6vw;
 }
 
 .margin-top-neg-10 {
@@ -1528,4 +1556,8 @@ a {
 
 .width-45 {
     width: 45vw;
+}
+
+.translateY-7 {
+    transform: translateY(7vw);
 }
