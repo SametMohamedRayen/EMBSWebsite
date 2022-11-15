@@ -1206,8 +1206,7 @@ a {
     vertical-align: middle;
     margin-left: -18.75vw;
     margin-top: -13vw;
-    height: 4.5vw;
-    width: 22.5vw;
+    z-index: 1;
     border-radius: 2vw;
     border-width: 0.25vw;
     border-color: #112849;
@@ -1224,6 +1223,7 @@ a {
 
 .inputContainer {
     text-align: center;
+    height: fit-content;
 }
 
 .hexDecoration {
@@ -1449,6 +1449,18 @@ a {
     margin-top: -2vw;
 }
 
+.margin-top-neg-5 {
+    margin-top: -5vw;
+}
+
+.margin-top-neg-4-5 {
+    margin-top: -4.5vw;
+}
+
+.width-60 {
+    width: 60vw;
+}
+
 .mirror {
     transform: rotateZ(180deg);
 }
@@ -1506,3 +1518,14 @@ a {
     margin-left: 5vw;
 }
 
+.height-4-5 {
+    height: 4.5vw;
+}
+
+.width-22-5 {
+    width: 22.5vw;
+}
+
+.width-45 {
+    width: 45vw;
+}

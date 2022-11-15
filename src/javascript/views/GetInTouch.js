@@ -8,14 +8,31 @@ const GetInTouch = () => {
         <div className="relative margin-top-15 width-half">
           <div className="row">
             <div className="column">
-              <Input type="email" placeholder="Your Email" />
+              <Input
+                type="email"
+                placeholder="Your Email"
+                height="height-4-5"
+                width="width-22-5"
+              />
             </div>
             <div className="column">
-              <Input type="text" placeholder="Subject" />
+              <Input
+                type="text"
+                placeholder="Subject"
+                height="height-4-5"
+                width="width-22-5"
+              />
             </div>
           </div>
           <div className="row">
-            <Input type="select" options="1,2,3" placeholder="Subject" />
+            <Input
+              type="text"
+              options="1,2,3"
+              placeholder="Subject"
+              height="height-4-5"
+              width="width-45"
+              margin="margin-top-neg-4-5"
+            />
           </div>
           <div className="row"></div>
         </div>

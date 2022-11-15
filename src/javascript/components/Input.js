@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 const Input = (props) => {
-  const { type, placeholder, width, height, options } = props;
+  const { type, placeholder, width, height, options, margin } = props;
   const optionsArray = type === "select" ? options.split(",") : null;
   const [focused, setFocused] = useState(false);
   return (
-    <div className="inputContainer">
+    <div className={"inputContainer " + margin}>
       <svg
         width="1060"
         height="949"
@@ -314,12 +314,12 @@ const Input = (props) => {
         <input
           type={type}
           placeholder={placeholder}
-          className="customInput"
+          className={"customInput " + width + " " + height}
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
         ></input>
       ) : (
-        <select className="customInput">
+        <select className={"customInput " + width + " " + height}>
           {optionsArray.map((op) => (
             <option>{op}</option>
           ))}
