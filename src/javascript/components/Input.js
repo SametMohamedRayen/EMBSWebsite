@@ -9,7 +9,7 @@ const Input = (props) => {
       <svg
         width="1060"
         height="949"
-        viewBox="0 0 1060 949"
+        viewBox={type === "text-area" ? "0 0 1500 1500" : "0 0 1060 949"}
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className={focused ? "hexDecoration" : "hexDecoration hidden"}

@@ -22,10 +22,10 @@ const MiddleBottomSection = () => {
             "staffHeadlineShadow" + (true ? "On" : "Off") + " absolute"
           }
         >
-          Recent Activit<span style={{ color: "#0CC5CB" }}>ieee</span>s
+          Recent Activit<span style={{ color: "#0CC5CB" }}>IEEE</span>s
         </h1>
         <h1 className={"staffHeadline" + (true ? "On" : "Off")}>
-          Recent Activit<span style={{ color: "#0CC5CB" }}>ieee</span>s
+          Recent Activit<span style={{ color: "#0CC5CB" }}>IEEE</span>s
         </h1>
         <div className="activities">
           <EventSlideShow
