@@ -1298,6 +1298,36 @@ input[type=number] {
     color: #24549B;
 }
 
+.roundButtonSend {
+    border:none;
+    border-radius: 2vw;
+    padding: 1vw 4vw;
+    font-family: "Josefin Sans",sans-serif;
+    color: white;
+    width: 25vw;
+    font-size: 1.75vw;
+    background: linear-gradient(to right,#0CC5CB,#24549B);
+    cursor: pointer;
+    transition-duration: 750ms;
+}
+
+.roundButtonSend:hover {
+    width: 29vw;
+    transition-duration: 750ms;
+}
+
+.roundButtonReset {
+    border:none;
+    border-radius: 4vw;
+    padding: 1vw 1vw;
+    color: white;
+    width: auto;
+    font-size: 1.75vw;
+    background-color: #0CC5CB;
+    cursor: pointer;
+    transition-duration: 750ms;
+}
+
 
 /* UTILITIES */
 
@@ -1688,4 +1718,20 @@ input[type=number] {
 
 .margin-top-1 {
     margin-top: 1vw;
+}
+
+.float-right {
+    float: right;
+}
+
+.width-30-pc {
+    width: 30%;
+}
+
+.margin-left-55-5 {
+    margin-left: 55.5vw;
+}
+
+.margin-top-neg-3 {
+    margin-top: -3vw;
 }
