@@ -1363,6 +1363,13 @@ input[type=number] {
     transition-duration: 350ms;
 }
 
+.bgContactUs {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -2;
+}
+
 
 /* UTILITIES */
 
