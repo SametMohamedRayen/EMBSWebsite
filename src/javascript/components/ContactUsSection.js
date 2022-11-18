@@ -17,9 +17,9 @@ const ContactUsSection = () => {
     setPhone(value);
   };
   return (
-    <form>
+    <form className={email || phone ? "margin-btm-8" : "margin-btm-15"}>
       <div className="relative height-50 margin-btm-15 centerContent">
-        <div className="absolute margin-top-15 width-90-pc centerContent row margin-btm-15">
+        <div className="absolute margin-top-15 width-90-pc centerContent row margin-btm-25">
           <div
             className={
               "column centerContent centerText height-35 width-20-pc margin-left-7 transition-duration-500 " +

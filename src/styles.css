@@ -1535,6 +1535,26 @@ input[type=number] {
     margin-bottom: 15vw;
 }
 
+.margin-btm-8 {
+    margin-bottom: 8vw;
+}
+
+.margin-btm-9 {
+    margin-bottom: 9vw;
+}
+
+.margin-btm-10 {
+    margin-bottom: 10vw;
+}
+
+.margin-btm-12-5 {
+    margin-bottom: 12.5vw;
+}
+
+.margin-btm-25 {
+    margin-bottom: 25vw;
+}
+
 .animation-delay-quarter {
     animation-delay: 250ms;
 }
