@@ -1308,12 +1308,27 @@ input[type=number] {
     font-size: 1.75vw;
     background: linear-gradient(to right,#0CC5CB,#24549B);
     cursor: pointer;
-    transition-duration: 750ms;
+    transition-duration: 350ms;
 }
 
-.roundButtonSend:hover {
-    width: 29vw;
-    transition-duration: 750ms;
+.roundButtonSendOverlay {
+    margin-left: -4vw;
+    margin-top: -1vw;
+    opacity: 0;
+    border:none;
+    border-radius: 2vw;
+    padding: 1vw 0;
+    width: 25vw;
+    height: 1.77vw;
+    font-size: 1.75vw;
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 350ms;
+}
+
+.roundButtonSend:hover>div {
+    opacity: 0.3;
+    transition-duration: 350ms;
 }
 
 .roundButtonReset {
@@ -1325,7 +1340,27 @@ input[type=number] {
     font-size: 1.75vw;
     background-color: #0CC5CB;
     cursor: pointer;
-    transition-duration: 750ms;
+    transition-duration: 350ms;
+}
+
+.roundButtonResetOverlay {
+    margin-left:-1.1vw;
+    margin-top: -1.1vw;
+    opacity: 0;
+    border:none;
+    border-radius: 2vw;
+    padding: 1vw 0;
+    width: 4vw;
+    height: 2.5vw;
+    font-size: 1.75vw;
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 350ms;
+}
+
+.roundButtonReset:hover>div {
+    opacity: 0.3;
+    transition-duration: 350ms;
 }
 
 

@@ -160,24 +160,24 @@ const ContactUsSection = () => {
             : "margin-top-neg-10 transition-duration-500")
         }
       >
-        <button
-          type="reset"
-          className="roundButtonReset"
-          onClick={() => {
-            console.log("yay");
-          }}
-        >
-          <FontAwesomeIcon icon="fa-solid fa-arrow-rotate-right" />
-        </button>
-        <button
-          type="submit"
-          className="roundButtonSend"
-          onClick={() => {
-            console.log("yay");
-          }}
-        >
-          Send Message
-        </button>
+        <div>
+          <button type="reset" className="roundButtonReset">
+            <div className="absolute roundButtonResetOverlay"></div>
+            <FontAwesomeIcon icon="fa-solid fa-arrow-rotate-right" />
+          </button>
+        </div>
+        <div className="fit-content">
+          <button
+            type="submit"
+            className="roundButtonSend"
+            onClick={() => {
+              console.log("Sent");
+            }}
+          >
+            <div className="absolute roundButtonSendOverlay"></div>
+            Send Message
+          </button>
+        </div>
       </div>
     </form>
   );
