@@ -1,0 +1,11 @@
+<svg width="1920" height="1169" viewBox="0 0 1920 1169" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ActivitiesClippingPath">
+<path id="GIFClippingPath" d="M945.5 1094L802.51 1120.01C630.863 1151.24 453.726 1118.22 304.859 1027.25C255.083 996.828 202.334 971.566 147.431 951.852L0 898.915V0H1920V810L1809.96 896.021C1714.51 970.638 1600.79 1018.27 1480.66 1033.96L1331 1053.5L945.5 1094Z" fill="url(#paint0_linear_583_2)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_583_2" x1="701.5" y1="1321" x2="711.5" y2="-169" gradientUnits="userSpaceOnUse">
+<stop stop-color="#006BA7" stop-opacity="0.1"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>

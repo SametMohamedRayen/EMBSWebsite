@@ -1,0 +1,28 @@
+<svg width="310" height="310" viewBox="0 0 310 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="RegularHex">
+<g id="Polygon 55">
+<path d="M44.2661 91.0677L155 27.1355L265.734 91.0677V218.932L155 282.865L44.2661 218.932V91.0677Z" stroke="url(#paint0_linear_601_3)" stroke-width="47"/>
+<path d="M44.2661 91.0677L155 27.1355L265.734 91.0677V218.932L155 282.865L44.2661 218.932V91.0677Z" stroke="url(#paint1_linear_601_3)" stroke-width="47"/>
+<path d="M44.2661 91.0677L155 27.1355L265.734 91.0677V218.932L155 282.865L44.2661 218.932V91.0677Z" stroke="url(#paint2_linear_601_3)" stroke-width="47"/>
+<path d="M44.2661 91.0677L155 27.1355L265.734 91.0677V218.932L155 282.865L44.2661 218.932V91.0677Z" stroke="url(#paint3_linear_601_3)" stroke-width="47"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_601_3" x1="85.8899" y1="57.7339" x2="215.294" y2="275.303" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0CC5CB"/>
+<stop offset="1" stop-color="#24549B"/>
+</linearGradient>
+<linearGradient id="paint1_linear_601_3" x1="85.8899" y1="57.7339" x2="215.294" y2="275.303" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0CC5CB"/>
+<stop offset="1" stop-color="#24549B"/>
+</linearGradient>
+<linearGradient id="paint2_linear_601_3" x1="85.8899" y1="57.7339" x2="215.294" y2="275.303" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0CC5CB"/>
+<stop offset="1" stop-color="#24549B"/>
+</linearGradient>
+<linearGradient id="paint3_linear_601_3" x1="85.8899" y1="57.7339" x2="215.294" y2="275.303" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0CC5CB"/>
+<stop offset="1" stop-color="#24549B"/>
+</linearGradient>
+</defs>
+</svg>
