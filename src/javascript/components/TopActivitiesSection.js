@@ -13,6 +13,7 @@ import HardSkills1 from "../../assets/images/activities/HardSkills1.jpg";
 import HardSkills2 from "../../assets/images/activities/HardSkills2.jpg";
 import { ReactComponent as RegularHex } from "../../assets/svg/RegularHex.svg";
 import { ReactComponent as HighlightedHex } from "../../assets/svg/HighlightedHex.svg";
+import ActivitiesCard from "./ActivitiesCard";
 
 const TopActivitiesSection = () => {
   const imgArray = [
@@ -35,7 +36,10 @@ const TopActivitiesSection = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex(index + 1 === imgArray.length ? 0 : index + 1);
+      setIndex((prevIndex) => {
+        return prevIndex + 1 === imgArray.length ? 0 : prevIndex + 1;
+      });
+      console.log(index);
       setCurrentImage(imgArray[index]);
     }, 5000);
     return () => {
@@ -74,6 +78,30 @@ const TopActivitiesSection = () => {
       <Blo9 className="floatingBlo9Bis" />
       <Hexagona className="floatingHexagona" />
       <HexagonaDark className="floatingHexagonaBis" />
+
+      <div className="row margin-horiz-6 margin-top-35">
+        <ActivitiesCard
+          title="Soft Skills"
+          icon="fa-regular fa-comment"
+          text="Find here the different soft skills workshops hosted by EMBS ENET'COM Student Branch through the last years."
+          margin="margin-top-5"
+          color="text-lightBlue"
+        />
+        <ActivitiesCard
+          title="Hard Skills"
+          icon="fa-solid fa-laptop-code"
+          text="Check out the technical training sessions held by our excellent trainers as well as the different collaborations."
+          margin="margin-top-8"
+          color="text-darkBlue"
+        />
+        <ActivitiesCard
+          title="Annual Activities"
+          icon="fa-regular fa-calendar-check"
+          text="You can also visit a calendar showcasing our annual events and collaborations to be always up to date on what's coming next."
+          margin="margin-top-5"
+          color="text-blue"
+        />
+      </div>
     </div>
   );
 };

@@ -1380,6 +1380,17 @@ input[type=number] {
     clip-path: url(#ActivitiesClippingPath);
 }
 
+.activityCard {
+    padding: 3vw 3vw;
+    border-radius: 7vw;
+    box-shadow: 0.5vw 0.5vw #112849;
+    background: linear-gradient(to bottom,white,beige);
+}
+
+.activityCard:active {
+    background-color: gray;
+}
+
 
 /* UTILITIES */
 
@@ -1830,4 +1841,37 @@ input[type=number] {
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.font-size-3 {
+    font-size: 3vw;
+}
+
+.margin-horiz-6 {
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+.margin-top-30 {
+    margin-top: 30vw;
+}
+
+.margin-top-35 {
+    margin-top: 35vw;
+}
+
+.text-blue {
+    color: #24549B;
+}
+
+.text-darkBlue {
+    color: #112849;
+}
+
+.text-yellow {
+    color: #F0C808;
 }
