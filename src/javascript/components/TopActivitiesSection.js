@@ -40,7 +40,6 @@ const TopActivitiesSection = (props) => {
       setIndex((prevIndex) => {
         return prevIndex + 1 === imgArray.length ? 0 : prevIndex + 1;
       });
-      console.log(index);
       setCurrentImage(imgArray[index]);
     }, 5000);
     return () => {
