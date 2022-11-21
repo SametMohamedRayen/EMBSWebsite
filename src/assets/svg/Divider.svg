@@ -1,0 +1,12 @@
+<svg width="31" height="450" viewBox="0 0 31 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Divider">
+<line id="Line 114" x1="15.5" y1="15.5" x2="15.5" y2="434.5" stroke="url(#paint0_linear_637_342)" stroke-width="31" stroke-linecap="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_637_342" x1="0.00155217" y1="187.5" x2="0.0035762" y2="432" gradientUnits="userSpaceOnUse">
+<stop stop-color="#24549B"/>
+<stop offset="0.0001" stop-color="#24549B"/>
+<stop offset="1" stop-color="#0CC5CB"/>
+</linearGradient>
+</defs>
+</svg>

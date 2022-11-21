@@ -6,7 +6,7 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 
 library.add(far, fas);
 
-const ActivitiesCard = (props) => {
+const ActivitiesTitleCard = (props) => {
   const { title, icon, text, margin, color, value, getValue } = props;
   return (
     <div
@@ -28,4 +28,4 @@ const ActivitiesCard = (props) => {
   );
 };
 
-export default ActivitiesCard;
+export default ActivitiesTitleCard;

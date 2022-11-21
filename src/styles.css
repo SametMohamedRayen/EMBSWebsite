@@ -1875,3 +1875,87 @@ input[type=number] {
 .text-yellow {
     color: #F0C808;
 }
+
+.flex {
+    display: flex;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.grid {
+    display: grid;
+}
+
+.margin-top-2 {
+    margin-top: 2vw;
+}
+
+.margin-top-1-5 {
+    margin-top: 1.5vw;
+}
+
+.margin-top-neg-18 {
+    margin-top: -18vw;
+}
+
+.margin-top-neg-36 {
+    margin-top: -36vw;
+}
+
+.margin-horiz-7 {
+    margin-right:7vw;
+    margin-left: 7vw;
+}
+
+.margin-horiz-10 {
+    margin-right:10vw;
+    margin-left:10vw;
+}
+
+.margin-top-neg-7-5 {
+    margin-top: -7.5vw;
+}
+
+.margin-top-neg-8 {
+    margin-top: -8vw;
+}
+
+.margin-top-20 {
+    margin-top: 20vw;
+}
+
+.margin-top-22 {
+    margin-top: 22vw;
+}
+
+.grid-parent-for-overlap {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-child-for-overlap {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.margin-left-neg-15 {
+    margin-left: -15vw;
+}
+
+.width-fit {
+    width: fit-content;
+}
+
+.margin-top-neg-16-5 {
+    margin-top: -16.5vw;
+}
+
+.margin-top-neg-16 {
+    margin-top: -16vw;
+}
+
+.margin-left-5 {
+    margin-left: 5vw;
+}
