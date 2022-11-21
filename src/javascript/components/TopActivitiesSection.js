@@ -15,7 +15,8 @@ import { ReactComponent as RegularHex } from "../../assets/svg/RegularHex.svg";
 import { ReactComponent as HighlightedHex } from "../../assets/svg/HighlightedHex.svg";
 import ActivitiesCard from "./ActivitiesCard";
 
-const TopActivitiesSection = () => {
+const TopActivitiesSection = (props) => {
+  const { getValue } = props;
   const imgArray = [
     SoftSkills1,
     SoftSkills2,
@@ -86,6 +87,8 @@ const TopActivitiesSection = () => {
           text="Find here the different soft skills workshops hosted by EMBS ENET'COM Student Branch through the last years."
           margin="margin-top-5"
           color="text-lightBlue"
+          value="SoftSkills"
+          getValue={getValue}
         />
         <ActivitiesCard
           title="Hard Skills"
@@ -93,6 +96,8 @@ const TopActivitiesSection = () => {
           text="Check out the technical training sessions held by our excellent trainers as well as the different collaborations."
           margin="margin-top-8"
           color="text-darkBlue"
+          value="HardSkills"
+          getValue={getValue}
         />
         <ActivitiesCard
           title="Annual Activities"
@@ -100,6 +105,8 @@ const TopActivitiesSection = () => {
           text="You can also visit a calendar showcasing our annual events and collaborations to be always up to date on what's coming next."
           margin="margin-top-5"
           color="text-blue"
+          value="Calendar"
+          getValue={getValue}
         />
       </div>
     </div>

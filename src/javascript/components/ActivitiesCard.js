@@ -7,13 +7,14 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 library.add(far, fas);
 
 const ActivitiesCard = (props) => {
-  const { title, icon, text, margin, color } = props;
+  const { title, icon, text, margin, color, value, getValue } = props;
   return (
     <div
       className={
         "relative z-2 bg-white width-20-pc height-fit centerText activityCard cursor-pointer " +
         margin
       }
+      onClick={() => getValue(value)}
     >
       <FontAwesomeIcon
         icon={icon}
