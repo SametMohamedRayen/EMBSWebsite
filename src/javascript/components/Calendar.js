@@ -1,4 +1,5 @@
 import React from "react";
+import DayCard from "./DayCard";
 
 const Calendar = () => {
   const date = new Date();
@@ -57,9 +58,30 @@ const Calendar = () => {
     }
   }
 
+  const days = [[], [], [], [], []];
+  for (let i = 0; i < 5; i++) {
+    for (let j = 0; j < 7; j++) {
+      days[i].push(
+        <DayCard
+          day={currentMonth[i][j]}
+          key={i * 7 + j}
+          icon="fa-regular fa-calendar"
+        />
+      );
+    }
+  }
+
   console.log(currentMonth);
 
-  return <p>CALENDAR</p>;
+  return (
+    <div className="column margin-horiz-5 width-90-pc gap-3">
+      <div className="row">{days[0]}</div>
+      <div className="row">{days[1]}</div>
+      <div className="row">{days[2]}</div>
+      <div className="row">{days[3]}</div>
+      <div className="row">{days[4]}</div>
+    </div>
+  );
 };
 
 export default Calendar;

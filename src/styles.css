@@ -1391,6 +1391,11 @@ input[type=number] {
     background-color: gray;
 }
 
+.dayCard {
+    padding: 3vw 0.5vw;
+    border-radius: 5vw;
+    background-color: beige;
+}
 
 /* UTILITIES */
 
@@ -1959,3 +1964,21 @@ input[type=number] {
 .margin-left-5 {
     margin-left: 5vw;
 }
+
+.margin-horiz-5 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.gap-3 {
+    gap: 3vw;
+}
+
+.height-15 {
+    height: 15vw;
+}
+
+.gap-0 {
+    gap: 0;
+}
+
