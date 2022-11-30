@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { far } from "@fortawesome/free-regular-svg-icons";
@@ -7,12 +7,20 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 library.add(far, fas);
 
 const DayCard = (props) => {
-  const { day, icon } = props;
+  const { day, updateRight, setOffClickedOnOthers, lastClicked } = props;
   return (
-    <div className="dayCard font-albori width-10-pc centerText column height-15 gap-0">
+    <div
+      className={
+        "dayCard font-albori width-10-pc centerText gap-0 " +
+        (lastClicked ? "linearBluesBg font-color-white" : "bg-beige")
+      }
+      onClick={() => {
+        updateRight();
+        setOffClickedOnOthers();
+      }}
+    >
       {day}
-      <br></br>
-      <FontAwesomeIcon icon={icon}></FontAwesomeIcon>
+      {/*<FontAwesomeIcon icon={icon}></FontAwesomeIcon>*/}
     </div>
   );
 };

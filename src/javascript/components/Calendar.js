@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import DayCard from "./DayCard";
+import { Event } from "../models/Event";
 
 const Calendar = () => {
+  const [lastClicked, setLastClicked] = useState(new Array(35).fill(false));
+
   const date = new Date();
   const day = date.getDay();
   const month = date.getMonth();
-  console.log(month);
+  const year = date.getFullYear();
+
   const dateOfFirstOfCurrentMonth = new Date(
     date.getFullYear(),
     date.getMonth(),
@@ -58,7 +62,20 @@ const Calendar = () => {
     }
   }
 
+  const events = [new Event(new Date(2022, 9, 15), "IEEE Day")];
+
+  const updateRight = () => {};
   const days = [[], [], [], [], []];
+
+  const setOffClickedOnOthers = [];
+  for (let i = 0; i < 35; i++) {
+    setOffClickedOnOthers.push(() => {
+      for (let key = 0; key < 35; key++) {
+        lastClicked[i] = i === key;
+      }
+    });
+  }
+
   for (let i = 0; i < 5; i++) {
     for (let j = 0; j < 7; j++) {
       days[i].push(
@@ -66,20 +83,57 @@ const Calendar = () => {
           day={currentMonth[i][j]}
           key={i * 7 + j}
           icon="fa-regular fa-calendar"
+          updateRight={updateRight}
+          eventsOfTheDate={events}
+          setOffClickedOnOthers={setOffClickedOnOthers[i * 7 + j]}
+          lastClicked={lastClicked[i]}
         />
       );
     }
   }
 
-  console.log(currentMonth);
+  const days_names = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
   return (
-    <div className="column margin-horiz-5 width-90-pc gap-3">
-      <div className="row">{days[0]}</div>
-      <div className="row">{days[1]}</div>
-      <div className="row">{days[2]}</div>
-      <div className="row">{days[3]}</div>
-      <div className="row">{days[4]}</div>
+    <div className="row">
+      <div className="column">
+        <div className="row">
+          <div>
+            {month === 0
+              ? "December " + (year - 1).toString()
+              : new Date(year, month - 1, 0).toLocaleString("default", {
+                  month: "long",
+                }) +
+                " " +
+                year}
+          </div>
+          <div>
+            {date.toLocaleString("default", { month: "long" }) + " " + year}
+          </div>
+          <div>
+            {month === 11
+              ? "January " + (year + 1).toString()
+              : new Date(year, month + 1, 1).toLocaleString("default", {
+                  month: "long",
+                }) +
+                " " +
+                year}
+          </div>
+        </div>
+        <div className="row width-80-pc centerContent">
+          <div className="column margin-horiz-5 gap-1">
+            <div className="row">
+              <div className=""> {days_names}</div>
+            </div>
+            <div className="row">{days[0]}</div>
+            <div className="row">{days[1]}</div>
+            <div className="row">{days[2]}</div>
+            <div className="row">{days[3]}</div>
+            <div className="row">{days[4]}</div>
+          </div>
+        </div>
+      </div>
+      <div>Its me</div>
     </div>
   );
 };

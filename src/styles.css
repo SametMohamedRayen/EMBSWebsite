@@ -1392,9 +1392,9 @@ input[type=number] {
 }
 
 .dayCard {
-    padding: 3vw 0.5vw;
+    padding: 1vw 0.5vw;
     border-radius: 5vw;
-    background-color: beige;
+    cursor: pointer;
 }
 
 /* UTILITIES */
@@ -1982,3 +1982,14 @@ input[type=number] {
     gap: 0;
 }
 
+.gap-1 {
+    gap: 1vw;
+}
+
+.bg-beige {
+    background-color: beige;
+}
+
+.linearBluesBg {
+    background: linear-gradient(to bottom right, #24549B,#0CC5CB);
+}
