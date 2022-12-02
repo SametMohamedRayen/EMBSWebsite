@@ -7,21 +7,26 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 library.add(far, fas);
 
 const DayCard = (props) => {
-  const { day, updateRight, setOffClickedOnOthers, lastClicked } = props;
+  const [lastClicked, setLastClicked] = useState(false);
+  const { day, updateRight, setOffClickedOnOthers, isToday } = props;
   return (
-    <div
-      className={
-        "dayCard font-albori width-10-pc centerText gap-0 " +
-        (lastClicked ? "linearBluesBg font-color-white" : "bg-beige")
-      }
-      onClick={() => {
-        updateRight();
-        setOffClickedOnOthers();
-      }}
-    >
-      {day}
-      {/*<FontAwesomeIcon icon={icon}></FontAwesomeIcon>*/}
-    </div>
+    <>
+      <div
+        className={
+          "dayCard font-albori width-10-pc centerText gap-0 " +
+          (isToday ? "linearBluesBg font-color-white " : "bg-beige ") +
+          (lastClicked ? "border-blue" : "")
+        }
+        onClick={() => {
+          updateRight();
+          setOffClickedOnOthers();
+          setLastClicked(true);
+        }}
+      >
+        {day}
+        {/*<FontAwesomeIcon icon={icon}></FontAwesomeIcon>*/}
+      </div>
+    </>
   );
 };
 

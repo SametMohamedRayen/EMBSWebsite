@@ -1993,3 +1993,9 @@ input[type=number] {
 .linearBluesBg {
     background: linear-gradient(to bottom right, #24549B,#0CC5CB);
 }
+
+.border-blue {
+    border-style: solid;
+    border-color: #24549B;
+    border-width: 0.125vw;
+}

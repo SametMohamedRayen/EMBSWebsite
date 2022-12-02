@@ -3,10 +3,8 @@ import DayCard from "./DayCard";
 import { Event } from "../models/Event";
 
 const Calendar = () => {
-  const [lastClicked, setLastClicked] = useState(new Array(35).fill(false));
-
   const date = new Date();
-  const day = date.getDay();
+  const day = date.getDate();
   const month = date.getMonth();
   const year = date.getFullYear();
 
@@ -66,16 +64,9 @@ const Calendar = () => {
 
   const updateRight = () => {};
   const days = [[], [], [], [], []];
-
-  const setOffClickedOnOthers = [];
-  for (let i = 0; i < 35; i++) {
-    setOffClickedOnOthers.push(() => {
-      for (let key = 0; key < 35; key++) {
-        lastClicked[i] = i === key;
-      }
-    });
-  }
-
+  const setOffClickedOnOthers = () => {
+    for (let i = 0; i < 35; i++) {}
+  };
   for (let i = 0; i < 5; i++) {
     for (let j = 0; j < 7; j++) {
       days[i].push(
@@ -85,8 +76,8 @@ const Calendar = () => {
           icon="fa-regular fa-calendar"
           updateRight={updateRight}
           eventsOfTheDate={events}
-          setOffClickedOnOthers={setOffClickedOnOthers[i * 7 + j]}
-          lastClicked={lastClicked[i]}
+          setOffClickedOnOthers={setOffClickedOnOthers}
+          isToday={currentMonth[i][j] === day}
         />
       );
     }
