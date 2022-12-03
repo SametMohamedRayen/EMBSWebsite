@@ -70,7 +70,9 @@ const MiddleTopSection = () => {
                 staffPosition="Vice Chair"
                 emoji={basicCrown}
                 emojiPosition={
-                  basicCrownHover ? "crownPositionHover" : "crownPosition"
+                  basicCrownHover
+                    ? "basicCrownPositionHover"
+                    : "basicCrownPosition"
                 }
               />
             </div>

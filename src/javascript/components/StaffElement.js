@@ -1,12 +1,26 @@
 import React from "react";
 import { ReactComponent as StaffFrame } from "../../assets/svg/StaffFrame.svg";
+import { ReactComponent as AhlemMarzougi } from "../../assets/svg/AhlemMarzgoui.svg";
+import { ReactComponent as AhmedChtourou } from "../../assets/svg/AhmedChtourou.svg";
+import { ReactComponent as OumaimaTriffi } from "../../assets/svg/OumaimaTriffi.svg";
+import { ReactComponent as RayenSamet } from "../../assets/svg/RayenSamet.svg";
 import GradientText from "./GradientText";
 
 const StaffElement = (props) => {
   const { staffName, staffPosition, emoji, emojiPosition } = props;
   return (
     <div className="staffElement">
-      <StaffFrame className="staffSvg" />
+      {staffName === "Ahlem Marzougi" ? (
+        <AhlemMarzougi className="staffSvg" />
+      ) : staffName === "Ahmed Chtourou" ? (
+        <AhmedChtourou className="staffSvg" />
+      ) : staffName === "Oumayma Trifii" ? (
+        <OumaimaTriffi className="staffSvg" />
+      ) : staffName === "Mohamed Rayen Samet" ? (
+        <RayenSamet className="staffSvg" />
+      ) : (
+        <StaffFrame className="staffSvg" />
+      )}
       <GradientText
         text={staffName}
         size="2"

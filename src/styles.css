@@ -758,8 +758,29 @@ input[type=number] {
     width: 6vw;
     height: auto;
     transform: rotateZ(30deg);
-    margin-top: -44.7vw;
+    margin-top: -45.25vw;
     margin-left: 0.7vw;
+    visibility: visible;
+    transition-duration: 500ms;
+}
+
+.basicCrownPosition {
+    position: absolute;
+    width: 6vw;
+    height: auto;
+    transform: rotateZ(30deg);
+    margin-top: -30vw;
+    margin-left: 0.7vw;
+    visibility: hidden;
+}
+
+.basicCrownPositionHover{
+    position: absolute;
+    width: 6vw;
+    height: auto;
+    transform: rotateZ(30deg);
+    margin-top: -45.25vw;
+    margin-left: -2vw;
     visibility: visible;
     transition-duration: 500ms;
 }
@@ -800,8 +821,8 @@ input[type=number] {
     width: 6.5vw;
     height: auto;
     transform: rotateZ(0deg);
-    margin-top: -36.75vw;
-    margin-left: -3.25vw;
+    margin-top: -37.25vw;
+    margin-left: -3vw;
     transition-duration: 500ms;
     visibility: visible;
 }
@@ -1393,6 +1414,12 @@ input[type=number] {
 
 .dayCard {
     padding: 1vw 0.5vw;
+    border-radius: 5vw;
+    cursor: pointer;
+}
+
+.dayCardClicked {
+    padding: 0.9vw 0.4vw;
     border-radius: 5vw;
     cursor: pointer;
 }

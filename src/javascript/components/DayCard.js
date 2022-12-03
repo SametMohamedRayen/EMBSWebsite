@@ -7,20 +7,27 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 library.add(far, fas);
 
 const DayCard = (props) => {
-  const [lastClicked, setLastClicked] = useState(false);
-  const { day, updateRight, setOffClickedOnOthers, isToday } = props;
+  const {
+    day,
+    updateRight,
+    setOffClickedOnOthers,
+    index,
+    isToday,
+    clicked,
+    setClickedTrue,
+  } = props;
   return (
     <>
       <div
         className={
-          "dayCard font-albori width-10-pc centerText gap-0 " +
+          "font-albori width-10-pc centerText gap-0 " +
           (isToday ? "linearBluesBg font-color-white " : "bg-beige ") +
-          (lastClicked ? "border-blue" : "")
+          (clicked ? "border-blue dayCardClicked" : "dayCard")
         }
         onClick={() => {
-          updateRight();
+          updateRight(day);
           setOffClickedOnOthers();
-          setLastClicked(true);
+          setClickedTrue(index);
         }}
       >
         {day}

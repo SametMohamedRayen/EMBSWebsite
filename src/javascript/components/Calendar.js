@@ -60,12 +60,24 @@ const Calendar = () => {
     }
   }
 
-  const events = [new Event(new Date(2022, 9, 15), "IEEE Day")];
-
-  const updateRight = () => {};
+  const events = [new Event(new Date(2022, 11, 15), "IEEE Day")];
+  const [foundEvent, setFoundEvent] = useState("Click A Date To See Events");
+  const updateRight = (day) => {
+    const eventsArray = events.filter((e) => {
+      return e.date.getMonth() === month && e.date.getDate() === day;
+    });
+    console.log(eventsArray);
+    setFoundEvent(eventsArray[0].name);
+  };
   const days = [[], [], [], [], []];
+  const [clicked, setClicked] = useState(new Array(35).fill(false));
   const setOffClickedOnOthers = () => {
-    for (let i = 0; i < 35; i++) {}
+    setClicked(new Array(35).fill(false));
+  };
+  const setClickedTrue = (key) => {
+    let clickedTemp = new Array(35).fill(false);
+    clickedTemp[key] = true;
+    setClicked(clickedTemp);
   };
   for (let i = 0; i < 5; i++) {
     for (let j = 0; j < 7; j++) {
@@ -73,21 +85,28 @@ const Calendar = () => {
         <DayCard
           day={currentMonth[i][j]}
           key={i * 7 + j}
+          index={i * 7 + j}
           icon="fa-regular fa-calendar"
           updateRight={updateRight}
           eventsOfTheDate={events}
           setOffClickedOnOthers={setOffClickedOnOthers}
           isToday={currentMonth[i][j] === day}
+          clicked={clicked[i * 7 + j]}
+          setClickedTrue={setClickedTrue}
         />
       );
     }
   }
 
   const days_names = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const day_names_array = [];
+  for (let i = 0; i < 7; i++) {
+    day_names_array.push(<div key={i}>{days_names[i]}</div>);
+  }
 
   return (
-    <div className="row">
-      <div className="column">
+    <div className="row width-90-pc">
+      <div className="column gap-2">
         <div className="row">
           <div>
             {month === 0
@@ -111,11 +130,9 @@ const Calendar = () => {
                 year}
           </div>
         </div>
-        <div className="row width-80-pc centerContent">
-          <div className="column margin-horiz-5 gap-1">
-            <div className="row">
-              <div className=""> {days_names}</div>
-            </div>
+        <div className="row centerContent">
+          <div className="column margin-horiz-5 width-full gap-1">
+            <div className="row gap-3">{day_names_array}</div>
             <div className="row">{days[0]}</div>
             <div className="row">{days[1]}</div>
             <div className="row">{days[2]}</div>
@@ -124,7 +141,7 @@ const Calendar = () => {
           </div>
         </div>
       </div>
-      <div>Its me</div>
+      <div>{foundEvent}</div>
     </div>
   );
 };

@@ -5,6 +5,7 @@
 <g id="Frame">
 <path id="Polygon 58" d="M82.4466 319.065L488.5 84.6299L894.553 319.065V787.935L488.5 1022.37L82.4466 787.935V319.065Z" stroke="url(#paint0_linear_637_341)" stroke-width="34"/>
 <path id="Line 104" d="M106.993 557.94L73 545.5V793.5L488 1032.5L904 793.5V545.5C760.991 523.423 613.312 532.658 473.98 571.72C353.648 605.455 224.353 600.89 106.993 557.94Z" fill="url(#paint1_linear_637_341)"/>
+<path id="Vector 11" d="M360.082 182.299L315 197.5L488.5 87.5L678 207.5L615.95 185.07C533.428 155.24 443.231 154.264 360.082 182.299Z" fill="url(#paint2_linear_637_341)"/>
 </g>
 <g id="Mask group">
 <mask id="mask0_637_341" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="616" y="522" width="290" height="363">
@@ -25,7 +26,7 @@
 </mask>
 <g mask="url(#mask0_637_341)">
 <g id="Group_2">
-<path id="Vector_13" d="M781.136 531.366L890.963 579.755L752.05 895.039L642.223 846.65L781.136 531.366Z" fill="url(#paint2_linear_637_341)" fill-opacity="0.5"/>
+<path id="Vector_13" d="M781.136 531.366L890.963 579.755L752.05 895.039L642.223 846.65L781.136 531.366Z" fill="url(#paint3_linear_637_341)" fill-opacity="0.5"/>
 </g>
 </g>
 </g>
@@ -43,7 +44,11 @@
 <stop stop-color="#24549B"/>
 <stop offset="1" stop-color="#0CC5CB"/>
 </linearGradient>
-<linearGradient id="paint2_linear_637_341" x1="836.049" y1="555.56" x2="697.137" y2="870.844" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint2_linear_637_341" x1="499" y1="160" x2="491.5" y2="1045" gradientUnits="userSpaceOnUse">
+<stop stop-color="#24549B"/>
+<stop offset="1" stop-color="#0CC5CB"/>
+</linearGradient>
+<linearGradient id="paint3_linear_637_341" x1="836.049" y1="555.56" x2="697.137" y2="870.844" gradientUnits="userSpaceOnUse">
 <stop offset="0.124908" stop-color="#24549B"/>
 <stop offset="0.467342" stop-color="#FFC10D"/>
 <stop offset="0.885429" stop-color="#0CC5CB"/>
