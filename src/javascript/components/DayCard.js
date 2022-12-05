@@ -15,19 +15,23 @@ const DayCard = (props) => {
     isToday,
     clicked,
     setClickedTrue,
+    enabled,
   } = props;
   return (
     <>
       <div
         className={
-          "font-albori width-10-pc centerText gap-0 " +
+          "font-albori width-10-pc centerText gap-0 unselectable " +
           (isToday ? "linearBluesBg font-color-white " : "bg-beige ") +
-          (clicked ? "border-blue dayCardClicked" : "dayCard")
+          (clicked ? "border-blue dayCardClicked " : "dayCard ") +
+          (enabled ? "cursor-pointer" : "font-color-gray")
         }
         onClick={() => {
-          updateRight(day);
-          setOffClickedOnOthers();
-          setClickedTrue(index);
+          if (enabled) {
+            updateRight(day);
+            setOffClickedOnOthers();
+            setClickedTrue(index);
+          }
         }}
       >
         {day}

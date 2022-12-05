@@ -1415,13 +1415,11 @@ input[type=number] {
 .dayCard {
     padding: 1vw 0.5vw;
     border-radius: 5vw;
-    cursor: pointer;
 }
 
 .dayCardClicked {
     padding: 0.9vw 0.4vw;
     border-radius: 5vw;
-    cursor: pointer;
 }
 
 /* UTILITIES */
@@ -1575,6 +1573,12 @@ input[type=number] {
 .row {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+}
+
+.row-space-around {
+    display: flex;
+    justify-content: space-around;
     flex-direction: row;
 }
 
@@ -2025,4 +2029,44 @@ input[type=number] {
     border-style: solid;
     border-color: #24549B;
     border-width: 0.125vw;
+}
+
+.border-left-0-33 {
+    border-left-width: 0.33vw;
+    border-left-color: #112849;
+    border-left-style: solid;
+}
+
+.width-10 {
+    width: 10vw;
+}
+
+.divider {
+    width: 0.33vw;
+    border-radius: 50vw;
+    background: linear-gradient(to bottom,#24549B,#0CC5CB);
+}
+
+.padding-horz-6 {
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+.width-3 {
+    width: 3vw;
+}
+
+.unselectable {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none;
+}
+
+.margin-horz-1 {
+    margin: 0 1vw;
+}
+
+.font-w-700 {
+    font-weight: 700;
 }
