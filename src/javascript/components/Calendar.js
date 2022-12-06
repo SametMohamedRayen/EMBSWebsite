@@ -156,7 +156,7 @@ const Calendar = () => {
                 " " +
                 year}
           </div>
-          <div className="font-w-700">
+          <div className="gradientText-lato-700-darkBlue-60-lightBlue-150">
             {date.toLocaleString("default", { month: "long" }) + " " + year}
           </div>
           <div
@@ -200,7 +200,9 @@ const Calendar = () => {
             "/" +
             year}
         </h2>
-        <h1 className="centerText font-josefin-sans">{foundEvent.name}</h1>
+        <h1 className="centerText gradientText-josefin-sans-darkBlue-0-lightBlue-70">
+          {foundEvent.name}
+        </h1>
         <p className="centerText font-lato padding-horz-6">
           {foundEvent.description}
         </p>

@@ -43,6 +43,18 @@ input[type=number] {
     border-radius: 2vw;
 }
 
+textarea::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+textarea::-webkit-scrollbar-track {
+    visibility: hidden;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+
 /* NAVBAR */
 
 .navbarShape {
@@ -1105,7 +1117,7 @@ input[type=number] {
 }
 
 .aboutContainer {
-    margin: 20vw 7vw 0 7vw;
+    margin: 30vw 7vw 0 7vw;
 
 }
 
@@ -1253,6 +1265,22 @@ input[type=number] {
     font-size: 1.5vw;
 }
 
+.customInputTA {
+    vertical-align: middle;
+    margin-left: -27.75vw;
+    margin-top: -31vw;
+    z-index: 1;
+    border-radius: 2vw;
+    border-width: 0.25vw;
+    border-color: #112849;
+    border-style: solid;
+    padding: 0 2vw;
+    box-sizing: border-box;
+    font-family: Lato,sans-serif;
+    font-size: 1.5vw;
+    resize: none;
+}
+
 .customInput:focus {
     outline: none;
 }
@@ -1266,6 +1294,15 @@ input[type=number] {
     position: relative;
     width: 15vw;
     height: auto;
+    z-index: -1;
+}
+
+.hexDecorationTA {
+    position: relative;
+    width: 25vw;
+    height: auto;
+    margin-left: -1.06vw;
+    transform: translateY(-3.65vw) translateX(1.75vw);
     z-index: -1;
 }
 
@@ -1440,6 +1477,21 @@ input[type=number] {
     font-family: 'Lato',sans-serif;
     font-size: 2vw;
     font-weight: 900;
+}
+
+.gradientText-lato-700-darkBlue-60-lightBlue-150 {
+    background: radial-gradient(circle at center,#112849 60%,#0CC5CB 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+}
+
+.gradientText-josefin-sans-darkBlue-0-lightBlue-70 {
+    background: radial-gradient(circle at center,#112849 0%,#0CC5CB 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Josefin Sans',sans-serif;
 }
 
 .gradientText-indigo-2-900-darkBlue-20-lightBlue-150 {
@@ -2069,4 +2121,13 @@ input[type=number] {
 
 .font-w-700 {
     font-weight: 700;
+}
+
+.translateY-neg-8-5 {
+    transform: translateY(-8.5vw);
+}
+
+.padding-vert-1 {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
