@@ -219,7 +219,7 @@ const AboutFrame = (props) => {
         >
           <use
             xlinkHref="#image2_475_47"
-            transform="translate(-0.000433368) scale(0.000712361 0.00160514)"
+            transform="translate(-0.000433368,0.15) scale(0.000712361 0.00140514)"
           />
         </pattern>
         <linearGradient
@@ -305,8 +305,8 @@ const AboutFrame = (props) => {
         <image
           id="image2_475_47"
           data-name="IE"
-          width={1405}
-          height={623}
+          width={1650}
+          height={400}
           xlinkHref={IEEEENETCOM}
         />
       </defs>
