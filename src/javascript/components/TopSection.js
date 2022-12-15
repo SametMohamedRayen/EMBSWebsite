@@ -10,14 +10,14 @@ import { ReactComponent as Blo9Dark } from "../../assets/svg/Blo9Dark.svg";
 
 const TopSection = () => {
   const text1 =
-    "We are the bad bitches that turn viruses into potions that heal or\n" +
-    "corrupt depending on the sitch.\n" +
-    "If you want to learn some of this witchraft join us on this land we\n" +
-    "call the witch's swamp.";
+    "Welcome to our laboratory !\n" +
+    "If you are interested in technologies applied in biology and medicine\n" +
+    "fields than this is the place for you !\n" +
+    "Take a look around and discover the mysteries in our lab.";
   const text2 =
-    "Lorem ipsum ihzgrjljk fgzrzjgrjgrklz lzegvrsgvggnlz fezolefe\n" +
-    "efzjjfeflelknfeefkefknfkelnfeklnfqjflejqefllfnelfeflefelafeljaaafljfelj\n" +
-    "duiahgduzaphdazhda";
+    "Here we create experiences to brew elixirs that heal the world.\n" +
+    "We do our best to create technologies that help save people.\n" +
+    "Come on in and let's help save millions of lives together.";
 
   const [dynamic_text1, setDynamicText1] = useState("");
   const textState = ["istyping1", "istyping2", "isdeleting1", "isdeleting2"];

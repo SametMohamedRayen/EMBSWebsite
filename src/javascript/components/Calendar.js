@@ -61,9 +61,45 @@ const Calendar = () => {
   }
   const events = [
     new Event(
-      new Date(2022, 11, 15),
+      new Date(2022, 9, 15),
       "IEEE Day",
       "Come celebrate the IEEE anniversary every year on this date and stay tuned for all the activities that will be organized."
+    ),
+    new Event(
+      new Date(2022, 8, 1),
+      "Integration Day (1)",
+      "Our Integration Days at ENET'COM were a huge success.\n" +
+        "Meeting new students, Telling them about IEEE ENET'COM SB, chapters and affinity group.\n" +
+        "Sharing with them our great and exciting moments, It was a heartwarming experience.\n" +
+        "We saw in their eyes their passion to know more about Us, So we knew that we had fulfilled our duty toward our honorable IEEE.\n"
+    ),
+    new Event(
+      new Date(2022, 8, 2),
+      "Integration Day (2)",
+      "Our Integration Days at ENET'COM were a huge success.\n" +
+        "Meeting new students, Telling them about IEEE ENET'COM SB, chapters and affinity group.\n" +
+        "Sharing with them our great and exciting moments, It was a heartwarming experience.\n" +
+        "We saw in their eyes their passion to know more about Us, So we knew that we had fulfilled our duty toward our honorable IEEE.\n"
+    ),
+    new Event(
+      new Date(2022, 8, 3),
+      "Integration Day (3)",
+      "Our Integration Days at ENET'COM were a huge success.\n" +
+        "Meeting new students, Telling them about IEEE ENET'COM SB, chapters and affinity group.\n" +
+        "Sharing with them our great and exciting moments, It was a heartwarming experience.\n" +
+        "We saw in their eyes their passion to know more about Us, So we knew that we had fulfilled our duty toward our honorable IEEE.\n"
+    ),
+    new Event(
+      new Date(2022, 8, 11),
+      "Opening Ceremony",
+      "Our opening ceremony took place at the ِcultural center on 11th September at 9 AM.\n" +
+        "This ceremony opened the door wide for our attendees to know more about IEEE. \n" +
+        "Back to this great day, the chairwoman of our EMBS chapter took the stage in order to introduce it and encourage people to be part of.\n"
+    ),
+    new Event(
+      new Date(2022, 8, 17),
+      "General Assembly ",
+      "Our first general assembly. We, IEEE ENET’Com student branch, chapters and affinity group,  gathered to get to know each other, share ideas and talk about our next events. So much fun and work are coming soon!!"
     ),
   ];
   const [foundEvent, setFoundEvent] = useState(
@@ -90,8 +126,6 @@ const Calendar = () => {
     setClicked(clickedTemp);
   };
 
-  console.log(new Date(new Date().getFullYear(), new Date().getMonth(), 5));
-  console.log(new Date());
   for (let i = 0; i < 5; i++) {
     for (let j = 0; j < 7; j++) {
       days[i].push(

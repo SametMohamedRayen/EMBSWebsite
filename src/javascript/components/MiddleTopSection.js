@@ -126,11 +126,11 @@ const MiddleTopSection = () => {
         </div>
         <TextSlider
           texts={[
-            '"Ahlem\'s quote in italic"\n -Ahlem Marzougi-',
-            `"Ahmed's quote in italic"\n -Ahmed Chtourou-`,
-            `"Oumayma's quote in italic"\n -Oumayma Trifii-`,
-            `"Rayen's quote in italic"\n -Mohamed Rayen Samet-`,
-            `"Mohamed's quote in italic"\n -Mohamed Turki-`,
+            '"The strength of the team is each individual member.\nThe strength of each member is the team."\n -Phil Jackson-',
+            `"If you want to lift yourself up,\n lift up someone else."\n -Booker T. Washington-`,
+            `"Coming together is a beginning, staying together is progress,\n and working together is success."\n -Henry Ford-`,
+            `"Find a group of people who challenge and inspire you,\n spend a lot of time with them, and it will change your life."\n -Amy Poehler-`,
+            `"I can do things you cannot, you can do things I cannot:\n together we can do great things."\n -Mother Teresa-`,
           ]}
         />
       </div>

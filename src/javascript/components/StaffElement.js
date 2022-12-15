@@ -1,9 +1,9 @@
 import React from "react";
-import { ReactComponent as StaffFrame } from "../../assets/svg/StaffFrame.svg";
 import { ReactComponent as AhlemMarzougi } from "../../assets/svg/AhlemMarzgoui.svg";
 import { ReactComponent as AhmedChtourou } from "../../assets/svg/AhmedChtourou.svg";
 import { ReactComponent as OumaimaTriffi } from "../../assets/svg/OumaimaTriffi.svg";
 import { ReactComponent as RayenSamet } from "../../assets/svg/RayenSamet.svg";
+import { ReactComponent as MohamedTurki } from "../../assets/svg/MohamedTurki.svg";
 import GradientText from "./GradientText";
 
 const StaffElement = (props) => {
@@ -19,7 +19,7 @@ const StaffElement = (props) => {
       ) : staffName === "Mohamed Rayen Samet" ? (
         <RayenSamet className="staffSvg" />
       ) : (
-        <StaffFrame className="staffSvg" />
+        <MohamedTurki className="staffSvg" />
       )}
       <GradientText
         text={staffName}

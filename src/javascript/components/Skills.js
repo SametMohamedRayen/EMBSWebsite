@@ -4,7 +4,9 @@ import { ReactComponent as Divider } from "./../../assets/svg/Divider.svg";
 import { ReactComponent as End } from "./../../assets/svg/End.svg";
 
 const Skills = (props) => {
-  const { type, images } = props;
+  const { images, activities } = props;
+
+  const last_index = activities.length - 1;
   return (
     <div className="column height-fit width-80-pc margin-horiz-10">
       <div className="row height-fit">
@@ -12,17 +14,17 @@ const Skills = (props) => {
         <ActivityCard
           images={images}
           i="0"
-          title="Activity1"
-          date="11/21/2022"
-          description="This is activity 1 hosted by EMBS"
+          title={activities[last_index].title}
+          date={activities[last_index].date}
+          description={activities[last_index].description}
         />
         <Divider className="margin-top-4" />
         <ActivityCard
           images={images}
           i="1"
-          title="Activity2"
-          date="11/21/2022"
-          description="This is activity 2 hosted by EMBS"
+          title={activities[last_index - 1].title}
+          date={activities[last_index - 1].date}
+          description={activities[last_index - 1].description}
         />
         <Divider className="margin-top-4" />
       </div>
@@ -31,9 +33,9 @@ const Skills = (props) => {
         <ActivityCard
           images={images}
           i="2"
-          title="Activity3"
-          date="11/21/2022"
-          description="This is activity 3 hosted by EMBS"
+          title={activities[last_index - 2].title}
+          date={activities[last_index - 2].date}
+          description={activities[last_index - 2].description}
         />
         <End className="margin-top-1-5" />
       </div>
@@ -42,17 +44,17 @@ const Skills = (props) => {
         <ActivityCard
           images={images}
           i="3"
-          title="Activity4"
-          date="11/21/2022"
-          description="This is activity 4 hosted by EMBS"
+          title={activities[last_index - 3].title}
+          date={activities[last_index - 3].date}
+          description={activities[last_index - 3].description}
         />
         <Divider className="margin-top-4" />
         <ActivityCard
           images={images}
           i="4"
-          title="Activity5"
-          date="11/21/2022"
-          description="This is activity 5 hosted by EMBS"
+          title={activities[last_index - 4].title}
+          date={activities[last_index - 4].date}
+          description={activities[last_index - 4].description}
         />
         <Divider className="margin-top-4" />
       </div>

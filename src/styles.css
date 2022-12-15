@@ -880,9 +880,9 @@ textarea::-webkit-scrollbar-thumb {
     text-align: center;
     font-family: "Lato", sans-serif;
     font-style: italic;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-weight: 700;
-    margin-top: 4.5vw;
+    margin-top: 2.5vw;
     z-index: 1;
     line-height: 4vw;
     color: #112849;
