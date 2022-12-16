@@ -114,6 +114,36 @@ const Calendar = () => {
       "IEEEXtreme",
       "A yearly global competitive programming challenge in which teams across the globe compete to solve programming problems in 24 hours of coding."
     ),
+    new Event(
+      new Date(2022, 11, 17),
+      "TSYP (1)",
+      "Spanning three days in late December and bringing in thousands of Students and Young Professionals, The TSYP Congress is the largest gathering of IEEE members from all across the country that features a diverse lineup of workshops, lectures and challenges"
+    ),
+    new Event(
+      new Date(2022, 11, 18),
+      "TSYP (2)",
+      "Spanning three days in late December and bringing in thousands of Students and Young Professionals, The TSYP Congress is the largest gathering of IEEE members from all across the country that features a diverse lineup of workshops, lectures and challenges"
+    ),
+    new Event(
+      new Date(2022, 11, 19),
+      "TSYP (3)",
+      "Spanning three days in late December and bringing in thousands of Students and Young Professionals, The TSYP Congress is the largest gathering of IEEE members from all across the country that features a diverse lineup of workshops, lectures and challenges"
+    ),
+    new Event(
+      new Date(2022, 2, 23),
+      "CSTC (1)",
+      "The Computer Society Tech Congress (CSTC) is a national event that is hosted by the an IEEE Computer Society Student Branch Chapter every year.Our participants will be able to attend workshops and conferences."
+    ),
+    new Event(
+      new Date(2022, 2, 24),
+      "CSTC (2)",
+      "The Computer Society Tech Congress (CSTC) is a national event that is hosted by the an IEEE Computer Society Student Branch Chapter every year.Our participants will be able to attend workshops and conferences."
+    ),
+    new Event(
+      new Date(2022, 2, 25),
+      "CSTC (3)",
+      "The Computer Society Tech Congress (CSTC) is a national event that is hosted by the an IEEE Computer Society Student Branch Chapter every year.Our participants will be able to attend workshops and conferences."
+    ),
   ];
   const [foundEvent, setFoundEvent] = useState(
     new Event(date, "Click A Date To See Events", "See here event description")
