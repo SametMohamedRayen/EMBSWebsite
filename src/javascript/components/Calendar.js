@@ -32,7 +32,7 @@ const Calendar = () => {
   ).getDay();
 
   const dayOfFirstOfCurrentMonth = dateOfFirstOfCurrentMonth.getDay();
-  let currentMonth = [[], [], [], [], []];
+  let currentMonth = [[], [], [], [], [], []];
   for (let i = 0; i < 7; i++) {
     if (i === dayOfFirstOfCurrentMonth) {
       currentMonth[0][i] = 1;
@@ -50,15 +50,31 @@ const Calendar = () => {
   }
 
   for (let i = 0; i < 7; i++) {
-    if (i === dayOfLastOfCurrentMonth) {
-      currentMonth[4][i] = numberOfDaysInCurrentMonth;
-    } else if (i < dayOfLastOfCurrentMonth) {
-      currentMonth[4][i] =
-        numberOfDaysInLastMonth - (dayOfLastOfCurrentMonth - i) - 1;
+    let potential = currentMonth[3][6] + i + 1;
+    if (potential <= numberOfDaysInCurrentMonth) {
+      currentMonth[4][i] = potential;
     } else {
       currentMonth[4][i] = i - dayOfLastOfCurrentMonth;
     }
   }
+
+  for (let i = 0; i < 7; i++) {
+    if (currentMonth[4][6] < 17) {
+      currentMonth[5][i] = currentMonth[4][6] + i + 1;
+    } else {
+      let potential = currentMonth[4][6] + i + 1;
+      if (potential <= numberOfDaysInCurrentMonth) {
+        currentMonth[5][i] = potential;
+      } else {
+        if (dayOfLastOfCurrentMonth === 6) {
+          currentMonth[5][i] = i + 1;
+        } else {
+          currentMonth[5][i] = i - dayOfLastOfCurrentMonth;
+        }
+      }
+    }
+  }
+
   const events = [
     new Event(
       new Date(2022, 9, 15),
@@ -158,7 +174,7 @@ const Calendar = () => {
         : eventsArray[0]
     );
   };
-  const days = [[], [], [], [], []];
+  const days = [[], [], [], [], [], []];
   const [clicked, setClicked] = useState(new Array(35).fill(false));
   const setOffClickedOnOthers = () => {
     setClicked(new Array(35).fill(false));
@@ -169,7 +185,7 @@ const Calendar = () => {
     setClicked(clickedTemp);
   };
 
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 6; i++) {
     for (let j = 0; j < 7; j++) {
       let found = !(
         events.filter((e) => {
@@ -197,7 +213,7 @@ const Calendar = () => {
           enabled={
             i === 0
               ? currentMonth[i][j] < 24
-              : i === 4
+              : i === 4 || i === 5
               ? currentMonth[i][j] >= 22
               : true
           }
@@ -273,6 +289,7 @@ const Calendar = () => {
             <div className="row">{days[2]}</div>
             <div className="row">{days[3]}</div>
             <div className="row">{days[4]}</div>
+            <div className="row">{days[5]}</div>
           </div>
         </div>
       </div>
