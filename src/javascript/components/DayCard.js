@@ -16,6 +16,7 @@ const DayCard = (props) => {
     clicked,
     setClickedTrue,
     enabled,
+    found,
   } = props;
   return (
     <>
@@ -34,8 +35,14 @@ const DayCard = (props) => {
           }
         }}
       >
-        {day}
-        {/*<FontAwesomeIcon icon={icon}></FontAwesomeIcon>*/}
+        <span className="margin-0 z-2">{day}</span>
+        {found && enabled ? (
+          <div className="fadeInBg">
+            <FontAwesomeIcon icon="fa-solid fa-check"></FontAwesomeIcon>
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
     </>
   );

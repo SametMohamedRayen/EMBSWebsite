@@ -2131,3 +2131,22 @@ textarea::-webkit-scrollbar-thumb {
     padding-top: 1vw;
     padding-bottom: 1vw;
 }
+
+.margin-right-5 {
+    padding-right: 5vw;
+}
+
+.width-26-pc {
+    width: 26%;
+}
+
+.fadeInBg {
+    position: absolute;
+    padding: 0.25vw 0.33vw;
+    color: green;
+    background-color: beige;
+    border-radius: 50vw;
+    margin-left: 2.25vw;
+    margin-top: -0.25vw;
+    border: solid 0.125vw #24549B;
+}

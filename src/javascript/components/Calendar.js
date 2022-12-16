@@ -68,38 +68,51 @@ const Calendar = () => {
     new Event(
       new Date(2022, 8, 1),
       "Integration Day (1)",
-      "Our Integration Days at ENET'COM were a huge success.\n" +
-        "Meeting new students, Telling them about IEEE ENET'COM SB, chapters and affinity group.\n" +
-        "Sharing with them our great and exciting moments, It was a heartwarming experience.\n" +
-        "We saw in their eyes their passion to know more about Us, So we knew that we had fulfilled our duty toward our honorable IEEE.\n"
+      "Our Integration Days at ENET'COM were a huge success." +
+        "Meeting new students, Telling them about IEEE ENET'COM SB, chapters and affinity group."
     ),
     new Event(
       new Date(2022, 8, 2),
       "Integration Day (2)",
-      "Our Integration Days at ENET'COM were a huge success.\n" +
-        "Meeting new students, Telling them about IEEE ENET'COM SB, chapters and affinity group.\n" +
-        "Sharing with them our great and exciting moments, It was a heartwarming experience.\n" +
-        "We saw in their eyes their passion to know more about Us, So we knew that we had fulfilled our duty toward our honorable IEEE.\n"
+      "Our Integration Days at ENET'COM were a huge success." +
+        "Meeting new students, Telling them about IEEE ENET'COM SB, chapters and affinity group."
     ),
     new Event(
       new Date(2022, 8, 3),
       "Integration Day (3)",
-      "Our Integration Days at ENET'COM were a huge success.\n" +
-        "Meeting new students, Telling them about IEEE ENET'COM SB, chapters and affinity group.\n" +
-        "Sharing with them our great and exciting moments, It was a heartwarming experience.\n" +
-        "We saw in their eyes their passion to know more about Us, So we knew that we had fulfilled our duty toward our honorable IEEE.\n"
+      "Our Integration Days at ENET'COM were a huge success." +
+        "Meeting new students, Telling them about IEEE ENET'COM SB, chapters and affinity group."
     ),
     new Event(
       new Date(2022, 8, 11),
       "Opening Ceremony",
-      "Our opening ceremony took place at the ِcultural center on 11th September at 9 AM.\n" +
-        "This ceremony opened the door wide for our attendees to know more about IEEE. \n" +
-        "Back to this great day, the chairwoman of our EMBS chapter took the stage in order to introduce it and encourage people to be part of.\n"
+      "Our opening ceremony took place at the ِcultural center on 11th September at 9 AM." +
+        "This ceremony opened the door wide for our attendees to know more about IEEE."
     ),
     new Event(
       new Date(2022, 8, 17),
       "General Assembly ",
       "Our first general assembly. We, IEEE ENET’Com student branch, chapters and affinity group,  gathered to get to know each other, share ideas and talk about our next events. So much fun and work are coming soon!!"
+    ),
+    new Event(
+      new Date(2022, 9, 12),
+      "Pink October",
+      "Celebrating the pink October by raising awareness through our various activities, informative sessions and workshops."
+    ),
+    new Event(
+      new Date(2022, 9, 19),
+      "Pink O'Clock",
+      "On Wednesday 19th of October, we as IEEE EMBS ENET'Com SBC in collaboration with IEEE ENET'Com Women in Engineering Student Affinity Group, organize a sports evening at our school filled with various activities such as yoga, fitness and more."
+    ),
+    new Event(
+      new Date(2022, 9, 22),
+      "IEEEXtreme",
+      "A yearly global competitive programming challenge in which teams across the globe compete to solve programming problems in 24 hours of coding."
+    ),
+    new Event(
+      new Date(2022, 9, 22),
+      "IEEEXtreme",
+      "A yearly global competitive programming challenge in which teams across the globe compete to solve programming problems in 24 hours of coding."
     ),
   ];
   const [foundEvent, setFoundEvent] = useState(
@@ -107,7 +120,7 @@ const Calendar = () => {
   );
   const updateRight = (day) => {
     const eventsArray = events.filter((e) => {
-      return e.getDateDay() === day;
+      return e.getDateDay() === day && e.getMonth() === month;
     });
     setFoundEvent(
       eventsArray.length === 0
@@ -128,6 +141,13 @@ const Calendar = () => {
 
   for (let i = 0; i < 5; i++) {
     for (let j = 0; j < 7; j++) {
+      let found = !(
+        events.filter((e) => {
+          return (
+            e.getDateDay() === currentMonth[i][j] && e.getMonth() === month
+          );
+        }).length === 0
+      );
       days[i].push(
         <DayCard
           day={currentMonth[i][j]}
@@ -151,6 +171,7 @@ const Calendar = () => {
               ? currentMonth[i][j] >= 22
               : true
           }
+          found={found}
         />
       );
     }

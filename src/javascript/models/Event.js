@@ -10,4 +10,7 @@ export class Event {
   getDateDay() {
     return this.date.getDate();
   }
+  getMonth() {
+    return this.date.getMonth();
+  }
 }

@@ -161,7 +161,7 @@ const ActivityCard = (props) => {
           >
             <use
               xlinkHref="#image0_637_341"
-              transform="translate(0 -0.119675) scale(0.000805153 0.000996261)"
+              transform="translate(0 -0.159) scale(0.000805153 0.000996261)"
             />
           </pattern>
           <pattern
@@ -172,7 +172,7 @@ const ActivityCard = (props) => {
           >
             <use
               xlinkHref="#image1_637_341"
-              transform="translate(0 -0.119675) scale(0.000805153 0.000996261)"
+              transform="translate(0 -0.159) scale(0.000805153 0.000996261)"
             />
           </pattern>
           <pattern
@@ -183,7 +183,7 @@ const ActivityCard = (props) => {
           >
             <use
               xlinkHref="#image2_637_341"
-              transform="translate(0 -0.119675) scale(0.000805153 0.000996261)"
+              transform="translate(0 -0.159) scale(0.000805153 0.000996261)"
             />
           </pattern>
           <pattern
@@ -194,7 +194,7 @@ const ActivityCard = (props) => {
           >
             <use
               xlinkHref="#image3_637_341"
-              transform="translate(0 -0.119675) scale(0.000805153 0.000996261)"
+              transform="translate(0 -0.159) scale(0.000805153 0.000996261)"
             />
           </pattern>
           <pattern
@@ -205,7 +205,7 @@ const ActivityCard = (props) => {
           >
             <use
               xlinkHref="#image4_637_341"
-              transform="translate(0 -0.119675) scale(0.000805153 0.000996261)"
+              transform="translate(0 -0.159) scale(0.000805153 0.000996261)"
             />
           </pattern>
           <linearGradient
@@ -279,11 +279,11 @@ const ActivityCard = (props) => {
           />
         </defs>
       </svg>
-      <div className="absolute z-2 margin-top-neg-16 margin-left-5">
+      <div className="absolute z-2 margin-top-neg-16 margin-left-5 line-height-0-5">
         <h2 className="font-size-2 margin-0 font-josefin-sans font-color-white">
           {title}
         </h2>
-        <div className="row width-45-pc">
+        <div className="row width-26-pc">
           <FontAwesomeIcon
             icon="fa-regular fa-calendar"
             className="font-size-140 font-color-white"
@@ -292,7 +292,7 @@ const ActivityCard = (props) => {
             {date}
           </h3>
         </div>
-        <p className="font-size-125 margin-0 font-color-white font-lato">
+        <p className="font-size-125 margin-0 font-color-white font-lato centerText margin-right-5">
           {description}
         </p>
       </div>

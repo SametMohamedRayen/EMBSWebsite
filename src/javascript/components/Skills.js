@@ -13,6 +13,7 @@ const Skills = (props) => {
         <Divider className="margin-top-4" />
         <ActivityCard
           images={images}
+          image={activities[last_index].image}
           i="0"
           title={activities[last_index].title}
           date={activities[last_index].date}
