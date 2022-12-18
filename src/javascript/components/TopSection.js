@@ -12,7 +12,7 @@ const TopSection = () => {
   const text1 =
     "Welcome to our laboratory !\n" +
     "If you are interested in technologies applied in biology and medicine\n" +
-    "fields than this is the place for you !\n" +
+    "fields then this is the place for you !\n" +
     "Take a look around and discover the mysteries in our lab.";
   const text2 =
     "Here we create experiences to brew elixirs that heal the world.\n" +

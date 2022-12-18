@@ -6,7 +6,7 @@ import SoftSkills3 from "../../assets/images/activities/SoftSkills3.jpg";
 import HardSkills1 from "../../assets/images/activities/HardSkills1.jpg";
 import teamBuilding from "../../assets/images/activities/team building.png";
 import entship from "../../assets/images/activities/entpship.png";
-import funfit from "../../assets/images/activities/fun & fit.png";
+import funfit from "../../assets/images/activities/funfit.png";
 import leadership from "../../assets/images/activities/leadership.jpg";
 import kids from "../../assets/images/activities/kids.jpg";
 import blockchain from "../../assets/images/activities/blockchain.jpg";
